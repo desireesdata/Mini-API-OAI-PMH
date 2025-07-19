@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead xmlns:cpf="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:isbn:1-931666-22-9" audience="external">
+  <eadheader>
+    <eadid url="http://archives39.fr/ark:/36595/a011637754197nCFo0f" countrycode="FR" identifier="FRAD039_02706W">FRAD039_02706W</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Anciens combattants et victimes des deux conflits mondiaux : fichiers nominatifs et enregistrements de délivrance de titres.
+</titleproper>
+        <subtitle>versement de l'Office national des anciens combattants et des victimes de guerre.</subtitle>
+        <author>Patricia Guyard, dir. Archives départementales du Jura.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives départementales du Jura</publisher>
+        <address>
+          <addressline>Impasse des Archives</addressline>
+          <addressline>BP 14</addressline>
+          <addressline>39570 Montmorot</addressline>
+        </address>
+        <date normal="2021">2021</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
+      <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unittitle>Anciens combattants et victimes des deux conflits mondiaux : fichiers nominatifs et enregistrements de délivrance de titres.
+</unittitle>
+      <repository>Archives départementales du Jura</repository>
+      <unitid>2706W</unitid>
+      <origination>02 Etablissements déconcentrés et établissements de l'Etat à compétences départementales / Défense / Office départemental des anciens combattants</origination>
+      <unitdate normal="1920-01-01/1980-12-31">1920-1980</unitdate>
+      <physdesc/>
+      <note type="mnesysinternal">
+        <p/>
+      </note>
+    </did>
+    <acqinfo>
+      <p>Type d'entrée : versement</p>
+      <p>Date d'entrée : 19/11/2021</p>
+    </acqinfo>
+    <otherfindaid>
+      <head>Inventaire complet</head>
+      <p>Accès à l'inventaire provisoire complet en format textuel </p>
+    </otherfindaid>
+    <accessrestrict>
+      <p>Communicable (on attire l'attention des chercheurs sur le fait que l'état de classement (ou déclassement relatif) des fiches ne rend pas pleinement immédiatement exploitable le présent versement. En outre, certains registres de déivrance des cartes d'anciens combattants sont très dégradés.)</p>
+    </accessrestrict>
+    <scopecontent>
+      <p> </p>
+      <p>Ce présent versement concerne tout particulièrement de nombreux fichiers nominatifs sous diverses formes et l'enregistrement chronologique de délivrance de titres d'anciens combattants relevant des Première et Seconde Guerre mondiales, tous restés en arrière du précédent versement de l'Onac 2378W en 2013 relatif à la même période et qui contenait des dossiers nominatifs sans les fichiers et enregistrements attenants.</p>
+    </scopecontent>
+    <appraisal>
+      <head>Etat provisoire de classement</head>
+      <p> </p>
+      <p>La plupart des fichiers doivent être reclassés alphabétiquement, voire ré-identifiés car ils contiennent en réalité des fiches relevant de plusieurs statuts. Le présent inventaire est donc très provisoire. Les dates sont données à titre purement indicatif ; la reprise du versement permettra d'affiner la confection de chaque fichier, répertoire et enregistrement.</p>
+    </appraisal>
+    <dsc type="othertype">
+      <c id="a011637754197R64HM5">
+        <did>
+          <unittitle>Première Guerre mondiale.- Demandes d'allocations : fichier nominatif.</unittitle>
+          <unitid>2706W/1-2706W/3</unitid>
+          <unitdate normal="1940-12-31">s. d. [1920-1940]</unitdate>
+          <physdesc>
+            <physfacet>papier</physfacet>
+          </physdesc>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <accessrestrict>
+          <p>Communicable</p>
+        </accessrestrict>
+        <appraisal>
+          <p>conservation</p>
+        </appraisal>
+      </c>
+      <c id="a011637754197vyX5Ae">
+        <did>
+          <unittitle>Deuxième Guerre mondiale.</unittitle>
+          <unitid>2706W/4-2706W/26</unitid>
+          <physdesc>
+            <physfacet>papier</physfacet>
+          </physdesc>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <accessrestrict>
+          <p>Communicable</p>
+        </accessrestrict>
+        <appraisal>
+          <p>conservation</p>
+        </appraisal>
+        <c id="a011637754197IFgnCy">
+          <did>
+            <unittitle>Anciens combattants (titres délivrés, allocations, grands mutilés).</unittitle>
+            <unitid>2706W/4-2706W/7</unitid>
+            <unitdate normal="1950-12-31">s. d. [1945-1950]</unitdate>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011637754197TAE14b">
+          <did>
+            <unittitle>Personnes contraintes au travail et réfractaires au STO.</unittitle>
+            <unitid>2706W/8-2706W/12</unitid>
+            <unitdate normal="1950-12-31">s. d. [1945-1950]</unitdate>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011637754197JFADPr">
+          <did>
+            <unittitle>Résistants.- Enregistrement, délivrance de titres, dossiers provenant d'autres départements ou envoyés à d'autres départements.</unittitle>
+            <unitid>2706W/13-2706W/20</unitid>
+            <unitdate normal="1950-12-31">s. d. [1945-1950]</unitdate>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011637754197i0IRah">
+          <did>
+            <unittitle>Victimes civiles, déportés, fusillés.</unittitle>
+            <unitid>2706W/21-2706W/26</unitid>
+            <unitdate normal="1950-12-31">s. d. [1945-1950]</unitdate>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+      </c>
+      <c id="a011637754674W1p4MW">
+        <did>
+          <unittitle>Enregistrement général d'attribution de cartes d'anciens combattants des deux conflits mondiaux.</unittitle>
+          <unitid>2706W27-37</unitid>
+          <unitdate normal="1920-01-01/1980-12-31">1920-1980</unitdate>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <otherfindaid>
+          <head>Inventaire provisoire complet</head>
+          <p>Accès à l'inventaire provisoire en format texte </p>
+        </otherfindaid>
+        <accessrestrict>
+          <p>NC communicable sur autorisation de la direction</p>
+        </accessrestrict>
+        <c id="a011637754748AJ4sra">
+          <did>
+            <unittitle>Combattants de la Première Guerre mondiale.</unittitle>
+            <unitid>2706W27-32</unitid>
+            <unitdate normal="1920-01-01/1950-12-31">1920-1950</unitdate>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011637754781F3Z3RX">
+          <did>
+            <unittitle>Combattants de la Seconde Guerre mondiale.</unittitle>
+            <unitid>2706W33-37</unitid>
+            <unitdate normal="1945-01-01/1980-12-31">1945-1980</unitdate>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

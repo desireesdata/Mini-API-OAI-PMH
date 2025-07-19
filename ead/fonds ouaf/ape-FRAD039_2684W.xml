@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead xmlns:cpf="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:isbn:1-931666-22-9" audience="external">
+  <eadheader>
+    <eadid url="http://archives39.fr/ark:/36595/a011615555387cd3gJ4" countrycode="FR" identifier="FRAD039_2684W">FRAD039_2684W</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Gestion des forêts publiques et privées dans le ressort du centre de gestion de Dole</titleproper>
+        <author>Isabelle Bluet, sous la direction de Patricia Guyard, directrice des Archives départementales du Jura</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives départementales du Jura</publisher>
+        <address>
+          <addressline>Impasse des Archives</addressline>
+          <addressline>BP 14</addressline>
+          <addressline>39570 Montmorot</addressline>
+        </address>
+        <date normal="2021">2021</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
+      <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unittitle>2684W Administration générale, foncier d'aménagement, de travaux et d'exploitation en forêts publiques et privées dans le ressort du centre de gestion de Dole</unittitle>
+      <repository>Archives départementales du Jura</repository>
+      <unitid>2684W/1-118</unitid>
+      <origination>Office national des forêts, unités territoriales de Dole (Dole-Chaux et Dole)</origination>
+      <unitdate normal="1929-01-01/2002-12-31">1929-2002</unitdate>
+      <physdesc/>
+      <note type="mnesysinternal">
+        <p/>
+      </note>
+    </did>
+    <acqinfo>
+      <p>Type d'entrée : versement</p>
+      <p>Dates d'entrées : les 18/02/2020 et 26/08/2020</p>
+    </acqinfo>
+    <custodhist>
+      <head>Transfert des documents aux Archives du Jura</head>
+      <p>Les dossiers de ce versement ont été sélectionnés sur place et collectés par Isabelle Bluet, attachée de conservation du patrimoine ainsi que Damien Willemann, adjoint du patrimoine. Cette intervention fait suite à la prévision de travaux de rénovation prévue cette année sur l'ensemble du bâtiment des unités territoriales de Dole (Dole-Chaux et Dole). La collecte s'est concentrée sur la principale salle d'archives au rez-de-chaussée mais aussi, par souci de cohérence du traitement des archives, sur les dossiers conservés dans les placards muraux au 1er étage.</p>
+      <p>Le versement totalise 9 mètres linéaires de documents après éliminations sur site puis tri interne aux Archives départementales du Jura.</p>
+    </custodhist>
+    <scopecontent>
+      <p>Le fonds renferme des archives relatives à l'ensemble des activités exercées sur le site de Dole entre 1966 - date effective de la mise en place de l'Office national des forêts - et 2002. Dans la mesure où les Archives départementales assurent depuis plusieurs années une collecte systématique des archives forestières et ce, sur l'ensemble du département, les unités territoriales de Dole ont fait l'objet d'une précédente opération de traitement de leurs archives par nos soins en 2009.</p>
+      <p>L'activité des forestiers sur le terrain est retracée au travers des registres d'ordre qui sont conservés ici entre 1963 et 2002 et par les livrets journaliers du responsable du centre de Dole entre 1932 et 1983.</p>
+      <p>Le suivi de la gestion des forêts communales mais aussi des forêts domaniales est présent dans ce versement. De nombreux dossiers permettent de connaître la gestion de la forêt domaniale de Chaux aussi bien pour le contrôle des plantations, les travaux forestiers, la voirie, les ventes de bois, les emprises et servitudes, la chasse mais aussi le tourisme en forêt ainsi que la protection des essences d'arbres dont l'étude menée entre 1979 et 1990 sur le dépérissement du chêne. Malheureusement peu de sources nous renseignent sur la gestion de la forêt du massif de la Serre dont les archives sont, par ailleurs, bien maigres.</p>
+      <p>À noter l'absence, dans ce versement, des documents relatifs aux aménagements forestiers (dossiers et plans). Les responsables ont souhaité conserver ces archives sur place par de nécessité de service pour la gestion des forêts. Pour consulter ces procès-verbaux d'aménagements forestiers du ressort des unités de Dole, il faut se reporter au versement 2645W, de l'Agence départementale du Jura, qui renferme ces documents sur la période comprise entre 1951 et 1992.</p>
+    </scopecontent>
+    <accessrestrict>
+      <p>Le fonds est communicable en salle de lecture des Archives départementales du Jura selon les règles en vigueur sur la communicabilité des documents publics.</p>
+    </accessrestrict>
+    <accessrestrict>
+      <p>Communicable</p>
+    </accessrestrict>
+    <otherfindaid>
+      <head>Inventaire du versement 2684W</head>
+      <p>Le présent inventaire en xml-ead décrit les principales catégories de dossiers contenu dans le versement. Pour accéder au détail du contenu des cotes, voir </p>
+    </otherfindaid>
+    <dsc type="othertype">
+      <c id="a011615558189wWDJMi" level="subfonds">
+        <did>
+          <unittitle>Administration générale</unittitle>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+      </c>
+      <c id="a0116155585203qzYrQ" level="subfonds">
+        <did>
+          <unittitle>Gestion des forêts</unittitle>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <c id="a011615558808gGJiRE" level="series">
+          <did>
+            <unittitle>Propriété forestière et travaux</unittitle>
+          </did>
+        </c>
+        <c id="a011615558787idWSmC" level="series">
+          <did>
+            <unittitle>Améliorations forestières et pastorales</unittitle>
+          </did>
+        </c>
+        <c id="a0116155587655ys8QZ" level="series">
+          <did>
+            <unittitle>Voirie forestière</unittitle>
+          </did>
+        </c>
+        <c id="a011615558750UVp2p1" level="series">
+          <did>
+            <unittitle>Exploitation</unittitle>
+          </did>
+        </c>
+        <c id="a011615558734bPaAdL" level="series">
+          <did>
+            <unittitle>Droits d'usage</unittitle>
+          </did>
+        </c>
+        <c id="a0116155587187wGgrm" level="series">
+          <did>
+            <unittitle>Incendies en forêts</unittitle>
+          </did>
+        </c>
+        <c id="a011615558702huTqHC" level="series">
+          <did>
+            <unittitle>Forêts privées</unittitle>
+          </did>
+        </c>
+      </c>
+      <c id="a011615558836bIt0EL" level="subfonds">
+        <did>
+          <unittitle>Règlementation</unittitle>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <c id="a011615558893xDLQsn" level="series">
+          <did>
+            <unittitle>Concessions, emprises et servitudes</unittitle>
+          </did>
+        </c>
+        <c id="a011615558874Sua7Gb" level="series">
+          <did>
+            <unittitle>Chasse et pêche</unittitle>
+          </did>
+        </c>
+        <c id="a0116155588607OiHvm" level="series">
+          <did>
+            <unittitle>Répression des délits forestiers</unittitle>
+          </did>
+        </c>
+      </c>
+      <c id="a011615558933EJ5LBt" level="subfonds">
+        <did>
+          <unittitle>Sauvegarde forestière et tourisme en forêt</unittitle>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+      </c>
+      <c id="a011615558952CMBz97" level="subfonds">
+        <did>
+          <unittitle>Assistance météorologique</unittitle>
+        </did>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

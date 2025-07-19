@@ -3,20 +3,35 @@
 
 require_once 'utils.php';
 
+// --- Sécurité : Clé secrète pour signer les resumptionTokens. À CHANGER POUR VOTRE PROD ! ---
+define('OAI_SECRET_KEY', 'une-longue-chaine-aleatoire-et-secrete');
+
 header('Content-Type: text/xml; charset=UTF-8');
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
-$records = load_records('data.csv');
+// --- Sécurité : Whitelist des valeurs autorisées ---
+$allowedVerbs = ['Identify', 'ListMetadataFormats', 'ListSets', 'ListIdentifiers', 'ListRecords', 'GetRecord'];
+$allowedMetadataPrefixes = ['oai_dc', 'ead'];
+
+// --- Sécurité : Nettoyage des entrées GET pour prévenir les XSS ---
+$verb = isset($_GET['verb']) ? htmlspecialchars($_GET['verb'], ENT_QUOTES, 'UTF-8') : '';
+$identifier = isset($_GET['identifier']) ? htmlspecialchars($_GET['identifier'], ENT_QUOTES, 'UTF-8') : '';
+$metadataPrefix = isset($_GET['metadataPrefix']) ? htmlspecialchars($_GET['metadataPrefix'], ENT_QUOTES, 'UTF-8') : '';
+$resumptionToken = isset($_GET['resumptionToken']) ? $_GET['resumptionToken'] : null; // Ne pas échapper le token ici
+$setParam = isset($_GET['set']) ? htmlspecialchars($_GET['set'], ENT_QUOTES, 'UTF-8') : null;
+
+// Charger les enregistrements depuis les deux sources
+$csv_records = load_records('data.csv');
+$ead_records = load_records_from_ead_directory('ead/');
+
+// Fusionner les deux listes
+$records = array_merge($csv_records, $ead_records);
 $sets = extract_sets($records);
 
-$verb = $_GET['verb'] ?? '';
-$identifier = $_GET['identifier'] ?? '';
-$metadataPrefix = $_GET['metadataPrefix'] ?? '';
-$resumptionToken = $_GET['resumptionToken'] ?? null;
 $batchSize = 10;
 $baseURL = get_base_url();
 
-function format_record($record) {
+function format_record($record, $metadataPrefix) {
     $xml = "<record>\n";
     $xml .= "  <header>\n";
     $xml .= "    <identifier>" . htmlspecialchars($record['identifier']) . "</identifier>\n";
@@ -26,17 +41,27 @@ function format_record($record) {
     }
     $xml .= "  </header>\n";
     $xml .= "  <metadata>\n";
-    $xml .= "    <oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" 
-             xmlns:dc=\"http://purl.org/dc/elements/1.1/\" 
-             xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" 
-             xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ 
-             http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n";
-    foreach ($record as $key => $value) {
-        if (in_array($key, ['title','creator','subject','description','publisher','date','type','format','language','coverage','rights']) && !empty($value)) {
-            $xml .= "      <dc:$key>" . htmlspecialchars($value) . "</dc:$key>\n";
+
+    if ($metadataPrefix == 'ead' && !empty($record['ead_filename'])) {
+        $safe_filename = basename($record['ead_filename']);
+        $ead_file_path = 'ead/' . $safe_filename;
+        if (file_exists($ead_file_path)) {
+            $old_libxml_setting = libxml_disable_entity_loader(true);
+            $dom = new DOMDocument();
+            $dom->load($ead_file_path, LIBXML_NOENT | LIBXML_DTDLOAD);
+            libxml_disable_entity_loader($old_libxml_setting);
+            $xml .= $dom->saveXML($dom->documentElement);
         }
+    } else {
+        $xml .= "    <oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" \n                 xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \n                 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \n                 xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ \n                 http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n";
+        foreach ($record as $key => $value) {
+            if (in_array($key, ['title','creator','subject','description','publisher','date','type','format','language','coverage','rights']) && !empty($value)) {
+                $xml .= "      <dc:$key>" . htmlspecialchars($value) . "</dc:$key>\n";
+            }
+        }
+        $xml .= "    </oai_dc:dc>\n";
     }
-    $xml .= "    </oai_dc:dc>\n";
+
     $xml .= "  </metadata>\n";
     $xml .= "</record>\n";
     return $xml;
@@ -70,97 +95,105 @@ echo "<OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\">\n";
 echo "  <responseDate>$date</responseDate>\n";
 echo "  <request verb=\"$verb\">$baseURL</request>\n";
 
-switch ($verb) {
-    case 'Identify':
-        echo "  <Identify>\n";
-        echo "    <repositoryName>Mon Entrepot OAI</repositoryName>\n";
-        echo "    <baseURL>$baseURL</baseURL>\n";
-        echo "    <protocolVersion>2.0</protocolVersion>\n";
-        echo "    <adminEmail>admin@example.org</adminEmail>\n";
-        echo "    <earliestDatestamp>2000-01-01</earliestDatestamp>\n";
-        echo "    <deletedRecord>no</deletedRecord>\n";
-        echo "    <granularity>YYYY-MM-DD</granularity>\n";
-        echo "  </Identify>\n";
-        break;
+if (!in_array($verb, $allowedVerbs)) {
+    echo "  <error code=\"badVerb\">Verbe OAI inconnu ou non pris en charge.</error>\n";
+} else {
+    switch ($verb) {
+        case 'Identify':
+            echo "  <Identify>\n";
+            echo "    <repositoryName>Mon Entrepot OAI</repositoryName>\n";
+            echo "    <baseURL>$baseURL</baseURL>\n";
+            echo "    <protocolVersion>2.0</protocolVersion>\n";
+            echo "    <adminEmail>admin@example.org</adminEmail>\n";
+            echo "    <earliestDatestamp>2000-01-01</earliestDatestamp>\n";
+            echo "    <deletedRecord>no</deletedRecord>\n";
+            echo "    <granularity>YYYY-MM-DD</granularity>\n";
+            echo "  </Identify>\n";
+            break;
 
-    case 'ListMetadataFormats':
-        echo "  <ListMetadataFormats>\n";
-        echo "    <metadataFormat>\n";
-        echo "      <metadataPrefix>oai_dc</metadataPrefix>\n";
-        echo "      <schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>\n";
-        echo "      <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>\n";
-        echo "    </metadataFormat>\n";
-        echo "  </ListMetadataFormats>\n";
-        break;
-    
-    case 'ListIdentifiers':
-        echo "  <ListIdentifiers>\n";
-        $start = $resumptionToken ? intval($resumptionToken) : 0;
-        $setParam = $_GET['set'] ?? null;
-
-        // Filtrage par set si un paramètre est passé
-        $filteredRecords = $records;
-            if ($setParam) {
-            $filteredRecords = array_filter($records, function ($record) use ($setParam) {
-                return isset($record['set']) && $record['set'] === $setParam;
-            });
-            $filteredRecords = array_values($filteredRecords); // réindexation après filtrage
+        case 'ListMetadataFormats':
+            echo "  <ListMetadataFormats>\n";
+            echo "    <metadataFormat>\n";
+            echo "      <metadataPrefix>oai_dc</metadataPrefix>\n";
+            echo "      <schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</schema>\n";
+            echo "      <metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</metadataNamespace>\n";
+            echo "    </metadataFormat>\n";
+            echo "    <metadataFormat>\n";
+            echo "      <metadataPrefix>ead</metadataPrefix>\n";
+            echo "      <schema>urn:isbn:1-931666-22-9</schema>\n";
+            echo "      <metadataNamespace>urn:isbn:1-931666-22-9</metadataNamespace>\n";
+            echo "    </metadataFormat>\n";
+            echo "  </ListMetadataFormats>\n";
+            break;
+        
+        case 'ListIdentifiers':
+        case 'ListRecords':
+            $start = 0;
+            if ($resumptionToken) {
+                list($token_data, $hmac) = explode('.', $resumptionToken, 2);
+                if (!hash_equals(hash_hmac('sha256', $token_data, OAI_SECRET_KEY), $hmac)) {
+                    echo "  <error code=\"badResumptionToken\">Le resumptionToken est invalide ou a expiré.</error>\n";
+                    break;
+                }
+                $context = json_decode(base64_decode($token_data), true);
+                $start = $context['offset'];
+                $setParam = $context['set'];
+                $metadataPrefix = $context['prefix'];
             }
 
-        $chunk = array_slice($filteredRecords, $start, $batchSize);
+            if ($metadataPrefix && !in_array($metadataPrefix, $allowedMetadataPrefixes)) {
+                echo "  <error code=\"cannotDisseminateFormat\">Le format de métadonnées demandé n'est pas disponible.</error>\n";
+                break;
+            }
 
-        foreach ($chunk as $record) {
-            echo format_header($record);
-        }
+            echo "  <" . $verb . ">\n";
+            $filteredRecords = $records;
+            if ($setParam) {
+                $filteredRecords = array_filter($records, function ($record) use ($setParam) {
+                    return isset($record['set']) && $record['set'] === $setParam;
+                });
+                $filteredRecords = array_values($filteredRecords);
+            }
 
-        if ($start + $batchSize < count($filteredRecords)) {
-            echo "  <resumptionToken>" . ($start + $batchSize) . "</resumptionToken>\n";
-        }
-        echo "  </ListIdentifiers>\n";
-        break;
-    
-    case 'ListRecords':
-        echo "  <ListRecords>\n";
+            $chunk = array_slice($filteredRecords, $start, $batchSize);
+            foreach ($chunk as $record) {
+                if ($verb === 'ListRecords') {
+                    echo format_record($record, $metadataPrefix);
+                } else {
+                    echo format_header($record);
+                }
+            }
 
-        $start = $resumptionToken ? intval($resumptionToken) : 0;
-        $setParam = $_GET['set'] ?? null;
+            if ($start + $batchSize < count($filteredRecords)) {
+                $new_offset = $start + $batchSize;
+                $context = ['offset' => $new_offset, 'set' => $setParam, 'prefix' => $metadataPrefix];
+                $token_data = base64_encode(json_encode($context));
+                $hmac = hash_hmac('sha256', $token_data, OAI_SECRET_KEY);
+                echo "  <resumptionToken>" . htmlspecialchars($token_data . '.' . $hmac) . "</resumptionToken>\n";
+            }
 
-        // Filtrage par set si fourni
-        $filteredRecords = $records;
-        if ($setParam) {
-            $filteredRecords = array_filter($records, function ($record) use ($setParam) {
-                return isset($record['set']) && $record['set'] === $setParam;
-            });
-            $filteredRecords = array_values($filteredRecords); // Réindexation après filtrage
-        }
+            echo "  </" . $verb . ">\n";
+            break;
 
-        $chunk = array_slice($filteredRecords, $start, $batchSize);
-        foreach ($chunk as $record) {
-            echo format_record($record);
-        }
+        case 'GetRecord':
+            if ($metadataPrefix && !in_array($metadataPrefix, $allowedMetadataPrefixes)) {
+                echo "  <error code=\"cannotDisseminateFormat\">Le format de métadonnées demandé n'est pas disponible.</error>\n";
+                break;
+            }
+            $record = get_record_by_id($identifier, $records);
+            if ($record) {
+                echo "  <GetRecord>\n";
+                echo format_record($record, $metadataPrefix);
+                echo "  </GetRecord>\n";
+            } else {
+                echo "  <error code=\"idDoesNotExist\">L'identifiant demandé n'existe pas.</error>\n";
+            }
+            break;
 
-        if ($start + $batchSize < count($filteredRecords)) {
-            echo "  <resumptionToken>" . ($start + $batchSize) . "</resumptionToken>\n";
-        }
-
-    echo "  </ListRecords>\n";
-    break;
-
-    case 'GetRecord':
-        $record = get_record_by_id($identifier, $records);
-        if ($record) {
-            echo "  <GetRecord>\n";
-            echo format_record($record);
-            echo "  </GetRecord>\n";
-        }
-        break;
-
-    case 'ListSets':
-        echo list_sets($sets);
-        break;
-
-    default:
-        echo "  <error code=\"badVerb\">Verbe OAI inconnu ou non pris en charge</error>\n";
+        case 'ListSets':
+            echo list_sets($sets);
+            break;
+    }
 }
 
 echo "</OAI-PMH>\n";

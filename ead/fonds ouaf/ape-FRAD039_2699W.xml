@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead xmlns:cpf="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:isbn:1-931666-22-9" audience="external">
+  <eadheader>
+    <eadid url="http://archives39.fr/ark:/36595/a011629464088ZuwRbm" countrycode="FR" identifier="FRAD039_2699W">FRAD039_2699W</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Règlements de boisements communaux </titleproper>
+        <subtitle>Versement de la Direction départementale des territoies du Jura (pour l'ancienne direction dép. de l'agriculture et de la forêt)</subtitle>
+        <author>Bordereau de versement rédigé par Patricia Guyard.</author>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives départementales du Jura</publisher>
+        <address>
+          <addressline>Impasse des Archives</addressline>
+          <addressline>BP 14</addressline>
+          <addressline>39570 Montmorot</addressline>
+        </address>
+        <date normal="2021">2021</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Instrument de recherche produit au moyen du logiciel Mnesys de la société Naoned Systèmes</creation>
+      <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unittitle>2699W Règlements de boisements communaux </unittitle>
+      <repository>Archives départementales du Jura</repository>
+      <unitid>2699W/1-15</unitid>
+      <origination>Versement de la Direction départementale des territoires du Jura. Dossiers de la Direction départementale de l'agriculture.</origination>
+      <unitdate normal="1965-01-01/2006-12-31">1965-2006</unitdate>
+      <physdesc/>
+      <note type="mnesysinternal">
+        <p/>
+      </note>
+    </did>
+    <acqinfo>
+      <p>Type d'entrée : versement</p>
+      <p>Date d'entrée : 20/08/2021</p>
+      <p>Rajout de dossiers manquants lors d'une collecte de documents de remembrements en 2021-2022.</p>
+    </acqinfo>
+    <otherfindaid>
+      <head>Inventaire du versement 2699W</head>
+      <p>Accès à l'Inventaire </p>
+    </otherfindaid>
+    <controlaccess>
+      <subject>AMENAGEMENT FORESTIER</subject>
+    </controlaccess>
+    <bioghist>
+      <head>Présentation des règlements de boisements</head>
+      <p>Les règlements de boisement étaient instruits par la direction départementale de l'Agriculture et de la forêt jusque 2007 où la compétence a été transférée au Département. Néanmoins, dès le début des années 2000, les services du Département instruisent le dossier, dressent les plans et les soumettent à l'approbation préfectorale. Aussi les dossiers compris dans ce versement contiennent-ils les deux types de procédures.</p>
+    </bioghist>
+    <custodhist>
+      <head>Modalités de la collecte</head>
+      <p>Matériellement, le versement de 2020 est constitué de dossiers littéralement reconstitués après avoir été retrouvés en vrac dans un local où étaient entreposés une vingtaine de mètres linéaires de documents dits « éliminables » à la DDT, la plupart des documents étant sortis de leurs boîtes et gisant épars au sol et sur les autres boîtes du local. Après extraction de ce local et premier rassemblement thématique de tous les documents qui y étaient stockés, les règlements de boisement totalisaient 3 mètres.</p>
+      <p>La cotation a été modifiée en 2022 suite à la réintégration des dossiers manquants retrouvés dans les dossiers du remembrement lors d'une collecte de novembre 2020. Le volume rajouté s'élève à 1,4 mètre linéaire et comble les lacunes observées dans le premier instrument de recherche. Le plus ancien règlement de boisement retrouvé date de 1965 et concerne la commune de Montmirey-le-Château.</p>
+    </custodhist>
+    <scopecontent>
+      <p>Chaque dossier est susceptible de comprendre avant tout :</p>
+      <p>- un plan, issu le plus souvent du tableau d'assemblage cadastral de la commune, sur lequel sont apposées les limites des zones réglementées, portant généralement au moins la date d'approbation de la commission communale d'aménagement foncier, parfois signé du président de la commission, sinon la signature du responsable de la direction départementale de l'agriculture du Jura pour le préfet signataire aussi de l'arrêté préfectoral,</p>
+      <p>- l'arrêté préfectoral original ou l'une de ses ampliations imposant le règlement.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Autres versements contenant des règlements de boisements</head>
+      <p>Sources complémentaires : trois versements de la préfecture contiennent des règlements de boisement au titre du contrôle de légalité, pour les communes sur 4 années, et deux particuliers.</p>
+    </relatedmaterial>
+    <accessrestrict>
+      <p>Le fonds est consultable en salle de lecture des Archives du Jura et communicable selon la législation en vigueur.</p>
+    </accessrestrict>
+    <accessrestrict>
+      <p>Communicable</p>
+    </accessrestrict>
+    <dsc type="othertype">
+      <c id="a0116294640883yp8Wm">
+        <did>
+          <unittitle>Règlements de boisement des communes du Jura.- Dossiers individuels par commune : plans approuvés ou arrêtés, arrêtés (originaux ou ampliation), éventuellement plans de travail, arrêté de nomination de membres de la commission communale d'aménagement foncier (classement par ordre alphabétique de  communes, lacune général entre Larnaud et Poligny et après Vosbles).</unittitle>
+          <unitid>2699W/1-2699W/15</unitid>
+          <unitdate normal="1962-01-01/2010-12-31">1962-2010</unitdate>
+          <physdesc>		</physdesc>
+          <note type="mnesysinternal">
+            <p/>
+          </note>
+        </did>
+        <accessrestrict>
+          <p>Communicable</p>
+        </accessrestrict>
+        <appraisal>
+          <p>conservation</p>
+        </appraisal>
+        <c id="a011629464088qgUn5A">
+          <did>
+            <unittitle>Abergement-lès-Thésy - Bellecombe.</unittitle>
+            <unitid>2699W/1</unitid>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011629464088DtIueP">
+          <did>
+            <unittitle>Bellefontaine-Brans.</unittitle>
+            <unitid>2699W/2</unitid>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011629464088l7vm6R">
+          <did>
+            <unittitle>Bréry-Charme (La).</unittitle>
+            <unitid>2699W/3</unitid>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011629464088PHFrAp">
+          <did>
+            <unittitle>Chassagne (La)-Choux.</unittitle>
+            <unitid>2699/4</unitid>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011660911843sj9PSj">
+          <did>
+            <unittitle>Cize-Desnes.</unittitle>
+            <unitid>2699/5</unitid>
+            <physdesc>
+              <physfacet>papier</physfacet>
+            </physdesc>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <appraisal>
+            <p>conservation</p>
+          </appraisal>
+        </c>
+        <c id="a011660911915X4J9xh">
+          <did>
+            <unittitle>Dessia-Fontainebrux.</unittitle>
+            <unitid>2699W/6</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660911977auYUTY">
+          <did>
+            <unittitle>Fontenu-Grande-Rivière.</unittitle>
+            <unitid>2699W/7</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912010O77auF">
+          <did>
+            <unittitle>Graye-et-Charnay-Lemuy.</unittitle>
+            <unitid>2699W/8</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912040tXL6f8">
+          <did>
+            <unittitle>Lent-Morbier.</unittitle>
+            <unitid>2699W/9</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912068trD7c8">
+          <did>
+            <unittitle>Morez-Picarreau.</unittitle>
+            <unitid>2699W/10</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912102L14vJs">
+          <did>
+            <unittitle>Pillemoine-Rixouse (La).</unittitle>
+            <unitid>2699W/11</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912132qcEsQE">
+          <did>
+            <unittitle>Rix-Trebief-Salans.</unittitle>
+            <unitid>2699W/12</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912166wRStMz">
+          <did>
+            <unittitle>Salins-les-Bains-Soucia.</unittitle>
+            <unitid>2699W/13</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a011660912203AWJXgO">
+          <did>
+            <unittitle>Souvans-Vercia.</unittitle>
+            <unitid>2699W/14</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+        <c id="a0116609122332d6Lre">
+          <did>
+            <unittitle>Verges-Vosbles.</unittitle>
+            <unitid>2699W/15</unitid>
+            <note type="mnesysinternal">
+              <p/>
+            </note>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
