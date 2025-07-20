@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" audience="external" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader>
+    <eadid identifier="FRAD004_207Fi" url="https://francearchives.fr/findingaid/660f2a834238466939b4fe06cc2ba27495ac8811" countrycode="FR">FRAD004_207Fi</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Répertoire numérique du fonds photographique Vial</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>AD des Alpes-de-Haute-Provence</publisher>
+      </publicationstmt>
+    </filedesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unitid>
+        <extptr ns2:type="simple" ns2:href="http://www.archives04.fr/a/915/fonds-eugene-vial/" />
+      </unitid>
+      <unittitle>Répertoire numérique du fonds photographique Vial</unittitle>
+      <unitdate>1898 - 1950</unitdate>
+      <physdesc>papier ; plaque de verre photographique ; support photographique plastique</physdesc>
+      <origination>Photographe</origination>
+      <langmaterial>français</langmaterial>
+    </did>
+    <controlaccess>
+      <corpname>photographe</corpname>
+      <genreform>Photographies</genreform>
+      <geogname>Alpes-Maritimes (France</geogname>
+      <geogname>Basses-Alpes (France</geogname>
+      <geogname>Bouches-du-Rhône (France</geogname>
+      <geogname>Corse (France</geogname>
+      <geogname>Digne-les-Bains (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Eure (France</geogname>
+      <geogname>Hautes-Alpes (France</geogname>
+      <geogname>Isère (France</geogname>
+      <geogname>Italie</geogname>
+      <geogname>Rhône (France</geogname>
+      <geogname>Suisse</geogname>
+      <geogname>Var (France</geogname>
+      <geogname>Vaucluse (France</geogname>
+      <geogname>département)</geogname>
+      <geogname>méditerranée (mer)</geogname>
+      <persname>Vial, Eugène (1884-1938)</persname>
+      <subject>agriculture</subject>
+      <subject>commerce</subject>
+      <subject>commune</subject>
+      <subject>cours d'eau</subject>
+      <subject>exploitation agricole</subject>
+      <subject>famille</subject>
+      <subject>guerre 1914-1918</subject>
+      <subject>habitat rural</subject>
+      <subject>habitat urbain</subject>
+      <subject>histoire des familles</subject>
+      <subject>industrie</subject>
+      <subject>montagne</subject>
+      <subject>patrimoine iconographique</subject>
+      <subject>édifice cultuel</subject>
+    </controlaccess>
+    <accessrestrict>
+      <p>Conformément aux dispositions du Code du patrimoine, ces documents sont librement communicables, sous réserve de leur état de conservation matérielle. S'ils sont disponibles sous forme de microfilms ou de numérisations, les originaux ne sont pas communiqués.</p>
+    </accessrestrict>
+    <userestrict>
+      <p>Libre.</p>
+    </userestrict>
+  </archdesc>
+</ead>

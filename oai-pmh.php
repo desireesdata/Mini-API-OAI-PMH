@@ -3,8 +3,31 @@
 
 require_once 'utils.php';
 
-// --- Sécurité : Clé secrète pour signer les resumptionTokens. À CHANGER POUR VOTRE PROD ! ---
-define('OAI_SECRET_KEY', 'une-longue-chaine-aleatoire-et-secrete');
+// --- Sécurité : Clé secrète pour signer les resumptionTokens ---
+// La clé est chargée depuis un fichier .env à la racine pour éviter de la stocker dans le code.
+// Si le fichier .env n'existe pas, une clé par défaut est utilisée. A CHANGER
+$secretKey = 'clé_à_changer_imperativement'; // Clé par défaut
+
+$envPath = __DIR__ . '/.env';
+if (file_exists($envPath)) {
+    // Utilise @ pour supprimer les avertissements si le fichier n'est pas lisible
+    $envContent = @file_get_contents($envPath);
+    if ($envContent) {
+        $lines = explode("\n", $envContent);
+        foreach ($lines as $line) {
+            if (strpos(trim($line), 'OAI_SECRET_KEY=') === 0) {
+                // Extrait la clé après 'OAI_SECRET_KEY='
+                $keyFromFile = trim(substr($line, 17));
+                if (!empty($keyFromFile)) {
+                    $secretKey = $keyFromFile;
+                    break;
+                }
+            }
+        }
+    }
+}
+
+define('OAI_SECRET_KEY', $secretKey);
 
 header('Content-Type: text/xml; charset=UTF-8');
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
@@ -44,13 +67,13 @@ function format_record($record, $metadataPrefix) {
 
     if ($metadataPrefix == 'ead' && !empty($record['ead_filename'])) {
         $safe_filename = basename($record['ead_filename']);
-        $ead_file_path = 'ead/' . $safe_filename;
+        $ead_file_path = 'ead/' . $record['set'] . '/' . $safe_filename;
         if (file_exists($ead_file_path)) {
-            $old_libxml_setting = libxml_disable_entity_loader(true);
-            $dom = new DOMDocument();
-            $dom->load($ead_file_path, LIBXML_NOENT | LIBXML_DTDLOAD);
-            libxml_disable_entity_loader($old_libxml_setting);
-            $xml .= $dom->saveXML($dom->documentElement);
+            $ead_content = file_get_contents($ead_file_path);
+            if ($ead_content) {
+                $ead_content_no_decl = preg_replace('/^<\?xml[^>]*\?>\s*/', '', $ead_content, 1);
+                $xml .= $ead_content_no_decl;
+            }
         }
     } else {
         $xml .= "    <oai_dc:dc xmlns:oai_dc=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" \n                 xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \n                 xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" \n                 xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ \n                 http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n";
@@ -101,10 +124,10 @@ if (!in_array($verb, $allowedVerbs)) {
     switch ($verb) {
         case 'Identify':
             echo "  <Identify>\n";
-            echo "    <repositoryName>Mon Entrepot OAI</repositoryName>\n";
+            echo "    <repositoryName>L'entrepot OAI du Service d'Archives Imaginaire !</repositoryName>\n";
             echo "    <baseURL>$baseURL</baseURL>\n";
             echo "    <protocolVersion>2.0</protocolVersion>\n";
-            echo "    <adminEmail>admin@example.org</adminEmail>\n";
+            echo "    <adminEmail>imagine@non-mais-imagine.org</adminEmail>\n";
             echo "    <earliestDatestamp>2000-01-01</earliestDatestamp>\n";
             echo "    <deletedRecord>no</deletedRecord>\n";
             echo "    <granularity>YYYY-MM-DD</granularity>\n";

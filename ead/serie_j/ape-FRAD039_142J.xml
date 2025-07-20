@@ -1,0 +1,879 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="urn:isbn:1-931666-22-9">
+	<eadheader>
+		<eadid url="http://archives39.fr/ark:/36595/a011423564731eVeBWX" countrycode="FR" identifier="FRAD039_142J">FRAD039_142J</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Papiers de la famille Toubin, de  Salins</titleproper><subtitle>fonds 142 J</subtitle><author>Jean-Louis Vauchez</author>
+				
+				
+				
+			</titlestmt><publicationstmt>
+				<publisher>Archives départementales du Jura</publisher>
+				
+				
+				<date normal="2015-02-10">10/02/2015</date>
+			</publicationstmt>
+		</filedesc>
+		<profiledesc>
+			<creation>Instrument de recherche produit au moyen du logiciel Mnesys classement de la société Naoned Systèmes</creation>
+			<langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+			
+		</profiledesc>
+	</eadheader>
+	<archdesc level="fonds">
+		<did>
+			<unittitle>Papiers de la famille Toubin, de  Salins.</unittitle>
+			<unitid>142J</unitid>
+			
+			<unitdate normal="1639-01-01/1991-12-31">1639-1991</unitdate>
+			
+
+
+			
+			
+			
+			
+			<physdesc>																								</physdesc>
+		<note type="mnesysinternal"><p/></note></did>
+		<scopecontent><p>Intérêt du fonds<lb/><lb/>Ces archives, indépendamment des documents familiaux sur la famille Toubin, sont d'autant de notices historiques sur Salins et sa région, collectées pendant des décennies.<lb/>Se reporter également à la sous-série 3 J 62-63.<lb/> </p></scopecontent>
+		<acqinfo><p>Dates d'entrée : 15/11/2011</p></acqinfo>
+<acqinfo><p>Modalités d'entrée : Don</p></acqinfo>
+ 	 															<appraisal><p>Dates de prise en charge : 16/01/2012</p></appraisal>
+														
+		
+
+	
+		<otherfindaid><p>Instrument de recherche : répertoire numérique détaillé, par Jean-Louis Vauchez, 2012, 7 p. dactyl.consultable en salle de lecture et sur le site (</p><p>Accès à la </p><p><lb/> </p></otherfindaid><bioghist><p> </p><p>Les membres de la famille Toubin, très ancrée dans la ville de Salins, ont joué un rôle important, au XIXe et XXe siècles, dans le développement de la ville, en tenant leur commerce de marchand de fers et de quincaillerie, mais aussi en tant que pharmacien, médecin, archiviste communal, et adjoint au maire. Les descendants, mais surtout les enfants d'Alexis Toubin, jouèrent un rôle intellectuel essentiel dans la connaissance de l'histoire de Salins et de sa région par la publication de nombreux articles et écrits.</p><p> </p><p>Citons Charles Toubin (1820-1891), le plus connu, professeur émérite, très cultivé, qui publia de nombreux ouvrages. Son œuvre est vaste et très variée. Jean Édouard (1)Toubin (1824-1906), également professeur, historien et archéologue, archiviste municipal à partir de la retraite, il publia de nombreux mémoires à la Société d'Émulation du Jura. François Eugène Toubin (1826-1923), fut plus de trente cinq ans médecin, puis médecin-chef à l'hospice de Salins. Jean Alexis César Toubin (1833-1899), pharmacien, il fut élu président du tribunal de commerce de Salins, et deuxième adjoint au maire en mai 1892.</p></bioghist><custodhist><p>Ces archives ont été achetées à la librairie Chenut de Besançon, en 2009, par Martine Bellague et Jean-Marie Gallois, de Salins. Ils en ont fait don, en novembre 2011, aux Archives départementales du Jura.</p></custodhist><arrangement><head>Les archives et organisation du classement</head><p> </p><p>Ce fonds a été gardé selon la forme matérielle originelle de ses classeurs et provient de René Toubin, fils de Philippe Toubin. Son re-conditionnement posait des problèmes de respect du fonds dans la mesure où il est composé de documents originaux et de photocopies qui les renseignent, les complètent et se croisent. Difficilement dissociables les uns des autres par les notes manuscrites et les nombreux petits formats, ces archives perdaient de leur authenticité et surtout de leur structure thématique.</p></arrangement>
+	
+	
+
+
+		<dsc type="othertype">
+			<c id="a011614166571lum3Uh"><did><unittitle>Recherches généalogiques : tableaux, notes, reproductions d'acte paroissiaux et d'état civil, photos.</unittitle><unitid>142J1-2</unitid><unitdate normal="1601-01-01/1998-12-31">1601-1998</unitdate><note type="mnesysinternal"><p/></note></did><c id="a0114235647315Fbpt9">
+				<did>
+					<unittitle>Famille Toubin et familles alliées.</unittitle>
+					<unitid>142J1</unitid>
+					<unitdate normal="1601-01-01/1998-12-31">1601-1998</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731F9yjTA">
+				<did>
+					<unittitle>Famille Bidaut.</unittitle>
+					<unitid>142J2</unitid>
+					<unitdate normal="1818-01-01/1991-12-31">1818-1991</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1991</p></accessrestrict></c></c><c id="a0116141755941xtFzW"><did><unittitle>Papiers familaux.</unittitle><unitid>142J3-20</unitid><unitdate normal="1844-01-01/1887-12-31">1844-1887</unitdate><note type="mnesysinternal"><p/></note></did><c id="a011614166954anbj1h"><did><unittitle>Documents divers : articles de presse, notes manuscrites, photos, journaux, documents originaux, correspondance, concernant différents membres de la famille Toubin.</unittitle><unitid>142J3-4</unitid><unitdate normal="1834-01-01/1970-12-31">1834-1970</unitdate><note type="mnesysinternal"><p/></note></did><c id="a011423564731gpp1Fd">
+				<did>
+					<unittitle>Alexis , Jules, Charles, Edouard , Eugène, César et Emma Toubin . Photos de Jules, Charles et René Toubin.</unittitle>
+					<unitid>142J3</unitid>
+					<unitdate normal="1834-01-01/1923-12-31">1834-1923</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1923</p></accessrestrict><bioghist><p>1/  Jean Alexis Toubin (1781-1860), officier de l'Empire, quitte l'armée après Waterloo pour créer à Salins «le magasin des fers».</p>
+
+<p>2/  Jules succède à son père Alexis comme marchand de fers à Salins.</p>
+
+<p>3/  Un dessin du portrait de Charles Toubin, 1891.</p>
+
+<p>4/  Ce dossier contient la copie de la prédiction de saint Césaire, évêque d'Arles, mort en 545, sur les horreurs et calamités qui devaient arriver dans les dernières années du XVIII<emph>e</emph> siècle et les premières du  XIX<emph>e</emph>.</p>
+
+<p>5/  Photo d'Eugène Toubin.</p>
+
+<p>6/  Jules, Charles, Edouard, Eugène, César  et  Emma Toubin sont les enfants d'Alexis Toubin.</p>
+
+<p>7/ René Toubin est le fils de Jules.</p>
+</bioghist>
+
+				
+
+
+			</c><c id="a011423564731qIlhGU">
+				<did>
+					<unittitle>René et Eugénie Toubin.</unittitle>
+					<unitid>142J4</unitid>
+					<unitdate normal="1878-01-01/1970-12-31">1878-1970</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1970</p></accessrestrict><bioghist><p>Personnage atypique, fille d'Eugène, qui a joué un rôle social important à Salins pendant la guerre de 1914-1918 et celle de 1939-1945. Elle reçut de nombreuses décorations, dont celles de Chevalier de la Légion d'Honneur et de la Santé publique. René et Eugénie Toubin sont cousins. Photo (collée) de René Toubin avec les autres photos du  dossier précédent.</p>
+</bioghist>
+
+				
+
+
+			</c></c><c id="a011423564731WPZsVU">
+				<did>
+					<unittitle>Attestations d'emploi de Charles Toubin comme professeur au lycée d'Alger, 1866, 1870, 1873. Souvenirs d'un septuagénaire (quatrième partie  manuscrite), par Charles  Toubin, s.d. 
+</unittitle>
+					<unitid>142J5</unitid>
+					<unitdate normal="1866-01-01/1873-12-31">1866-1873</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1873</p></accessrestrict><scopecontent><p>Ce seul exemplaire des "souvenirs d'un septuagénaire" figurait dans la famille Toubin. Les trois premières parties figurent dans le journal « Les Gaudes ».</p>
+</scopecontent><bibliography><head>Publications de Charles Toubin conservées aux Archives départementales du Jura </head><p>- "Du culte des arbres chez les anciens. Étude archéologique", 1862, Br1425 ;</p>
+
+<p> </p>
+
+<p>- "De quelques coutumes, proverbes et locutions du pays de Salins", in <emph render="italic">Mémoires de la Société d'émulation du Doubs</emph>, séance du 16 mai 1868, Br 1426 ;</p>
+
+<p> </p>
+
+<p>- "De quelques coutumes, proverbes et locutions du pays de Salins". "Notice sur Jacques Prévost, peintre, graveur et sculpteur". "Les artistes de Franche-Comté au salon universel de 1867", in <emph render="italic">Société d'Émulation du Doubs</emph>, Besançon, 1868, p. 283-320, Br 2951.   </p>
+</bibliography>
+
+				
+
+
+			</c><c id="a011423564731sRT7Jd">
+				<did>
+					<unittitle>Journal de pensées, de notes diverses et de comptes d'Emma Toubin, 1865-1905. Cahiers originaux du journal d'Emma Toubin 1867-1900. </unittitle>
+					<unitid>142J6</unitid>
+					<unitdate normal="1865-01-01/1905-12-31">1865-1905</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1905</p></accessrestrict><bioghist><p>Emma Toubin (1835-1914).</p>
+</bioghist>
+
+				
+
+
+			</c><c id="a011423564731GdB3Xq">
+				<did>
+					<unittitle>Documents originaux, reproductions, correspondance, coupures de presse, concernant Philippe et François Toubin.</unittitle>
+					<unitid>142J7-8</unitid>
+					<unitdate normal="1904-01-01/1956-12-31">1904-1956</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1956</p></accessrestrict><bioghist><p>Philippe succède à son père René à la quincaillerie de Salins. Il sera associé à une certaine période avec son frère François.</p>
+</bioghist><c id="a011614172298G3uqqe"><did><unittitle>Papiers officiels, actes notariés, correspondance commerciale de Philippe Toubin, 1904-1956.  Pièces diverses concernant son épouse, Frédérique Mourthaux.</unittitle><unitid>142J7</unitid><unitdate normal="1915-01-01/1932-12-31">1915-1932</unitdate><note type="mnesysinternal"><p/></note></did></c><c id="a011423564731pfQ034">
+				<did>
+					<unittitle>Correspondance commerciale de François et Philippe Toubin. 	</unittitle>
+					<unitid>142J8</unitid>
+					<unitdate normal="1912-01-01/1929-12-31">1912-1929</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1929</p></accessrestrict></c>
+
+				
+
+
+			</c><c id="a011423564731DW5mnq">
+				<did>
+					<unittitle>Papiers militaires.- Correspondance, diplôme, documents militaires et divers concernant René Toubin, 1916-1941. Cahier des cours du peloton du 186e RALT (Régiment d'Artillerie Lourde Tractée), 7e batterie, de René Toubin, 1932-1933. </unittitle>
+					<unitid>142J9</unitid>
+					<unitdate normal="1916-01-01/1941-12-31">1916-1941</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1941</p></accessrestrict><bioghist><p>René est le fils de Philippe Toubin. Il lui succède à la quincaillerie.   </p>
+</bioghist>
+
+				
+
+
+			</c><c id="a011423564731gdXGvQ">
+				<did>
+					<unittitle>Correspondance de Robert Toubin, fils de Philippe.</unittitle>
+					<unitid>142J10</unitid>
+					<unitdate normal="1923-01-01/1926-12-31">1923-1926</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1926</p></accessrestrict></c><c id="a0114235647311WXLUz">
+				<did>
+					<unittitle>Documents originaux, photos, tickets de rationnement, coupures de presse, notes administratives, concernant René et Robert Toubin pendant la période de la guerre 1939-1945 ; livret militaire de Robert Toubin.	</unittitle>
+					<unitid>142J11</unitid>
+					<unitdate normal="1940-01-01/1944-12-31">1940-1944</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1944</p></accessrestrict></c><c id="a011423564731iWXL63">
+				<did>
+					<unittitle>Diverses photos de la famille Toubin non identifiées, s.d., sauf celle de Laurence Toubin (1893-1971), bébé, s.d.</unittitle>
+					<unitid>142J12</unitid><unitdate normal="1850-01-01/1900-12-31">2e moitié du 19e siècle</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731n79r4R">
+				<did>
+					<unittitle>Documents divers des autres membres de la famille Toubin et alliées (Meyer, Denêtre, Paquette, Raton).	</unittitle>
+					<unitid>142J13</unitid>
+					<unitdate normal="1849-01-01/1964-12-31">1849-1964</unitdate>
+			
+					
+
+				</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1964</p></accessrestrict>
+
+				
+
+
+			</c><c id="a0114235647319zRLUR">
+				<did>
+					<unittitle>Collection de menus de la famille Toubin.	</unittitle>
+					<unitid>142J14</unitid>
+					<unitdate normal="1883-01-01/1966-12-31">1883-1966</unitdate>
+			
+					
+
+				</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1966</p></accessrestrict>
+
+				
+
+
+			</c><c id="a0114235647316rnl52">
+				<did>
+					<unittitle>États des biens, immobiliers et mobiliers, de la famille Toubin (ferme, vignes, meubles, commerce, entretien), comptes.</unittitle>
+					<unitid>142J15</unitid>
+					<unitdate normal="1801-01-01/2000-12-31">XIXe - XXe siècle</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731d2mmHf">
+				<did>
+					<unittitle>Famille Mourthaux, négociants à Salins.- Articles de presse, notes manuscrites, journaux, factures, comptes.</unittitle>
+					<unitid>142J16</unitid>
+					<unitdate normal="1844-01-01/1918-12-31">1844-1918</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1918</p></accessrestrict><bioghist><p>Philippe Toubin se marie à Frédérique Mourthaux. </p>
+</bioghist>
+
+				
+
+
+			</c><c id="a011423564731TTlZrZ">
+				<did>
+					<unittitle>Reproductions de coupures de presse sur Salins, correspondance de René Toubin avec Henri Vincenot , articles de presse concernant Henri Vincenot.</unittitle>
+					<unitid>142J17</unitid>
+					<unitdate normal="1919-01-01/1987-12-31">1919-1987</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1987</p></accessrestrict><bioghist><p>Henri Vincenot a passé son enfance dans une famille d'employés du chemin de fer, plus précisément de la compagnie du PLM. Son père était ingénieur à la voie, son grand-père paternel mécanicien, son grand-père maternel était garde-barrière à Mâlain (à 16 km à l'ouest de Dijon). Diplômé de l'ESC Dijon et d'HEC, il a travaillé aux chemins de fer, puis comme journaliste au journal La Vie du Rail (anciennement nommé Notre Métier), dont il fut pendant plus de vingt ans l'un des principaux rédacteurs. À la fin de sa vie, il s'est retiré à Commarin (Côte-d'Or) où il a écrit la plupart de ses ouvrages. L'œuvre d'Henri Vincenot est profondément marquée par son attachement à la Bourgogne. Il remet en valeur les anciennes pratiques païennes celtiques, tout en montrant à quel point elles sont intégrées dans la culture populaire catholique. Ses personnages, souvent truculents, parlent un langage fortement imprégné de bourguignon-morvandiau qui, d'après Vincenot, dérive tout droit du celtique.</p>
+</bioghist>
+
+				
+
+
+			</c><c id="a011423564731szH3y4">
+				<did>
+					<unittitle>Registres de comptes des billets et obligations dus et pour le compte de Jules Toubin et son fils René, quincailliers à Salins.	</unittitle>
+					<unitid>142J18-20</unitid>
+					<unitdate normal="1841-01-01/1908-12-31">1841-1908</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1908</p></accessrestrict><c id="a011614173237iixf24"><did><unittitle>Comptes de 1841-1908.</unittitle><unitid>142J18</unitid><unitdate normal="1841-01-01/1908-12-31">1841-1908</unitdate><note type="mnesysinternal"><p/></note></did></c><c id="a011423564731pA6ZDE">
+				<did>
+					<unittitle>Comptes de 1853-1883.</unittitle>
+					<unitid>142J19</unitid>
+					<unitdate normal="1853-01-01/1883-12-31">1853-1883</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1883</p></accessrestrict></c><c id="a011423564731fwIndI">
+				<did>
+					<unittitle> Pièces extraites des comptes.</unittitle>
+					<unitid>142J20</unitid><unitdate normal="1880-01-01/1896-12-31">1880-1896</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c>
+
+				
+
+
+			</c></c><c id="a011614175858eM9VHy"><did><unittitle>Activités commerciales</unittitle><unitid>142J21-25</unitid><unitdate normal="1887-01-01/1990-12-31">1887-1990</unitdate><note type="mnesysinternal"><p/></note></did><c id="a011423564731HQZBwY">
+				<did>
+					<unittitle>Factures, correspondance des fournisseurs et clients des établissements Toubin, marchand de fers et de quincaillerie à Salins.</unittitle>
+					<unitid>142J21-24</unitid>
+					<unitdate normal="1887-01-01/1900-12-31">1887-1900</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1887</p></accessrestrict><c id="a0116141736539PTraS"><did><unittitle>1887.</unittitle><unitid>142J21</unitid><unitdate normal="1887-01-01/1887-12-31">1887</unitdate><note type="mnesysinternal"><p/></note></did></c><c id="a011423564731nxJ7FR">
+				<did>
+					<unittitle>1888.</unittitle>
+					<unitid>142J22</unitid>
+					<unitdate normal="1888-01-01/1888-12-31">1888</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1888</p></accessrestrict></c><c id="a011423564731fCIbcv">
+				<did>
+					<unittitle>1873-1891.</unittitle>
+					<unitid>142J23</unitid>
+					<unitdate normal="1873-01-01/1891-12-31">1873-1891</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1891</p></accessrestrict></c><c id="a011423564731G3SQgY">
+				<did>
+					<unittitle>1890-1900.</unittitle>
+					<unitid>142J24</unitid>
+					<unitdate normal="1890-01-01/1900-12-31">1890-1900</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1900</p></accessrestrict></c>
+
+				
+
+
+			</c><c id="a011423564731iyFt1c">
+				<did>
+					<unittitle>Correspondance avec en-têtes de lettres de fournisseurs et en-têtes de lettres, photos, publicités et encarts publicitaires  de la Maison Philippe Toubin, 1900-1980. Photo et notes sur Lucien Laborde, gérant des Établissements Toubin pendant la guerre 1914-1918.</unittitle>
+					<unitid>142J25</unitid>
+					<unitdate normal="1900-01-01/1980-12-31">1900-1980</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1980</p></accessrestrict></c></c>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<c id="a011614173957BZSscu"><did><unittitle>Travaux historiques sur Salins et sa région.</unittitle><unitid>142J26-50</unitid><unitdate normal="1800-01-01/1982-12-31">1800-1982</unitdate><note type="mnesysinternal"><p/></note></did><scopecontent><p>Toutes ces notices historiques ont été collectés par René Toubin à partir des travaux de son arrière grand-père, Édouard Toubin, ainsi que de ses propres notes. Ces notes sont souvent accompagnées de croquis.</p>
+</scopecontent><c id="a011423564731Yp3J1O">
+				<did>
+					<unittitle>Essai de description du château de Bracon. Recherches sur le tramway de Salins à Levier, XIXe-XXe s.</unittitle>
+					<unitid>142J26</unitid>
+					<unitdate normal="1801-01-01/2000-12-31">XIXe-XXe siècle</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731Fq2hUc">
+				<did>
+					<unittitle>Le couvent des Cordeliers de Salins et l'hôpital de Bracon.</unittitle>
+					<unitid>142J27</unitid><unitdate>s.d.</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731a0Hg9j">
+				<did>
+					<unittitle>Diverses recherches sur la ville de Salins.</unittitle>
+					<unitid>142J28</unitid><unitdate>s.d.</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731hfz6I6">
+				<did>
+					<unittitle>Défense et forteresses de Salins.</unittitle>
+					<unitid>142J29</unitid>
+					<unitdate normal="1674-01-01/1871-12-31">1674-1871</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1871</p></accessrestrict></c><c id="a0114235647313mxaJr">
+				<did>
+					<unittitle>Culte de la Vierge à Salins.</unittitle>
+					<unitid>142J30</unitid>
+					<unitdate normal="1639-01-01/1939-12-31">1639-1939</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1939</p></accessrestrict></c><c id="a011423564731Y5Uu4s">
+				<did>
+					<unittitle>Incendie de la ville de Salins.</unittitle>
+					<unitid>142J31</unitid>
+					<unitdate normal="1825-01-01/1825-12-31">1825</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1825</p></accessrestrict></c><c id="a0114235647319PFmus">
+				<did>
+					<unittitle>Établissement thermal, 1917-1961.</unittitle>
+					<unitid>142J32</unitid>
+					<unitdate normal="1917-01-01/1961-12-31">1917-1961</unitdate>
+			
+					
+
+				</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1961</p></accessrestrict>
+
+				
+
+
+			</c><c id="a011423564731dRiqsT">
+				<did>
+					<unittitle>La vie du chapitre à l'église Saint-Anatoile, XVIIe-XVIIIe s. L'hôpital du Saint-Sépulcre de Salins, 1680-1702. Article sur la vie religieuse à Salins, sur l'église Notre-Dame (1969) et l'orgue de l'église Saint-Jean-Baptiste.</unittitle>
+					<unitid>142J33</unitid><unitdate normal="1600-01-01/1969-12-31">1600-1969</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731d32ICA">
+				<did>
+					<unittitle>Étude sur Sarcenne ou Cercennes.</unittitle>
+					<unitid>142J34</unitid>
+					<unitdate normal="1841-01-01/1841-12-31">1841</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1841</p></accessrestrict></c><c id="a011423564731PnQpuQ">
+				<did>
+					<unittitle>Inventaire du musée de Salins et état des monuments classés.</unittitle>
+					<unitid>142J35</unitid>
+					<unitdate normal="1883-01-01/1925-12-31">1883-1925</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1925</p></accessrestrict></c><c id="a011423564731Q9fzHs">
+				<did>
+					<unittitle>Copie, par thème, du dictionnaire des communes de Rousset avec dessins représentant et replaçant les principaux monuments de Salins.</unittitle>
+					<unitid>142J36</unitid>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731FEHtmA">
+				<did>
+					<unittitle>Les églises de Salins : extraits des annales de la ville de Salins.</unittitle>
+					<unitid>142J37</unitid>
+					<unitdate normal="1788-01-01/1800-12-31">1788-1800</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1800</p></accessrestrict></c><c id="a011423564731poR5W1">
+				<did>
+					<unittitle>Copies d'articles du journal Le Salinois.</unittitle>
+					<unitid>142J38</unitid><unitdate normal="1860-01-01/1931-12-31">1860-1931</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731dLpMiR">
+				<did>
+					<unittitle>Catalogue de l'exposition, organisée par la MJC de Salins, sur les requins fossiles.</unittitle>
+					<unitid>142J39</unitid>
+					<unitdate normal="1982-01-01/1982-12-31">1982</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1982</p></accessrestrict></c><c id="a011423564731iZo92f">
+				<did>
+					<unittitle>Recensement partiel des fossiles du Jura.</unittitle>
+					<unitid>142J40</unitid><unitdate>s.d.</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731rFd5rG">
+				<did>
+					<unittitle>Série de petits classeurs, numérotés 2 à 10, concernant divers articles, sur Salins et sa région, relevés dans différents ouvrages par Édouard Toubin.</unittitle>
+					<unitid>142J41-50</unitid>
+					<unitdate normal="1601-01-01/1800-12-31">XVII-XVIIIème siècle</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note></did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict><scopecontent><p> Il manque le classeur N° 1</p>
+</scopecontent><bioghist><p>Édouard Toubin, professeur de physique puis de mathématiques, ami de Pasteur, fut, à sa retraite, archiviste municipal de la ville de Salins pendant vingt-deux ans.</p>
+</bioghist><c id="a011614174745A5OnL3"><did><unittitle>Eglise et l'ermitage Saint-Anatoile (croquis), ainsi que d'autres ermitages. Notice biographique sur Édouard Toubin, par Pinault, 1920.</unittitle><unitid>142J41</unitid><unitdate normal="1600-01-01/1920-12-31">1600-1920</unitdate><note type="mnesysinternal"><p/></note></did></c><c id="a011423564731a60CsR">
+				<did>
+					<unittitle>N° 3.- Prieuré de Château-sur-Salins (nota : il y a deux numéros 3).</unittitle>
+					<unitid>142J42</unitid>
+					<unitdate normal="1708-01-01/1881-12-31">1708-1881</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1881</p></accessrestrict></c><c id="a0114235647318ps0QQ">
+				<did>
+					<unittitle>N° 3.- Faits divers, les boucheries, les Capucins, La Chaux-sur-Crésille, les Carmes, l'hôpital de Montaigu, l'hôpital St-Bernard, l'hôpital de Bracon, nos trois prieurés, XIVe-XIXe s. (nota : i y a deux n° 3).</unittitle>
+					<unitid>142J43</unitid>
+					<unitdate normal="1301-01-01/1900-12-31">XIVe-XIXe siècle</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731yP7vDM">
+				<did>
+					<unittitle>N° 4.- Préhistoire et protohistoire dans le département du Jura. Notes extraites du manuel d'archéologie de Déchelette (croquis).</unittitle>
+					<unitid>142J44</unitid>
+					<unitdate normal="1880-01-01/1960-12-31">1880-1960</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1960</p></accessrestrict></c><c id="a011423564731VPRw5A">
+				<did>
+					<unittitle>N° 5.- Le canton de Salins (extraits du Dictionnaire des communes du Jura, par A. Rousset).</unittitle>
+					<unitid>142J45</unitid>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a0114235647315fIF1E">
+				<did>
+					<unittitle>N° 6.- Les salines de Salins.</unittitle>
+					<unitid>142J46</unitid>
+					<unitdate normal="1746-01-01/1866-12-31">1746-1866</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1866</p></accessrestrict></c><c id="a011423564731SOjgdr">
+				<did>
+					<unittitle>N° 7.- Les fortifications, les fontaines, les salines et la topographie de Salins.</unittitle>
+					<unitid>142J47</unitid>
+					<unitdate normal="1601-01-01/1900-12-31">XVIIe - XIX es.</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable</p></accessrestrict></c><c id="a011423564731R046Es">
+				<did>
+					<unittitle>N° 8.- Articles sur la région de Salins relevés dans les annuaires du Jura (croquis), et article de journal.</unittitle>
+					<unitid>142J48</unitid>
+					<unitdate normal="1840-01-01/1989-12-31">1840-1989</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1989</p></accessrestrict></c><c id="a011423564731H6y11U">
+				<did>
+					<unittitle>N° 9.- Articles sur la Franche-Comté et plus particulièrement sur le Jura.</unittitle>
+					<unitid>142J49</unitid>
+					<unitdate normal="1814-01-01/1961-12-31">1814-1961</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+			</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1961</p></accessrestrict></c><c id="a0114235647316wToOv">
+				<did>
+					<unittitle>N° 10.- Salins antique, voies et routes, la nécropole de Moidons, Alaise, l'exploitation du sel, croquis et carte.</unittitle>
+					<unitid>142J50</unitid>
+					<unitdate normal="1847-01-01/1909-12-31">1847-1909</unitdate>
+			
+					
+
+				<note type="mnesysinternal"><p/></note>
+
+				
+
+
+				</did>
+				<appraisal><p>Conservation</p></appraisal>
+				<accessrestrict><p>Communicable à partir de 1909</p></accessrestrict></c>
+
+				
+
+
+			</c></c>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</dsc>
+	</archdesc>
+</ead>

@@ -1,0 +1,3341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ead xmlns:cpf="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:isbn:1-931666-22-9" audience="external">
+  <eadheader>
+    <eadid url="http://archives39.fr/ark:/36595/a0114234955678hrxDs" countrycode="FR" identifier="FRAD039_45Fi">FRAD039_45Fi</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Tirages photographiques de Jean Ribière relatifs au département du Jura</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Archives départementales du Jura</publisher>
+        <date normal="2015-02-09">09/02/2015</date>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Instrument de recherche produit au moyen du logiciel Mnesys classement de la société Naoned Systèmes</creation>
+      <langusage>Instrument de recherche rédigé en <language langcode="fre">français</language></langusage>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unittitle>Tirages photographiques de Jean Ribière relatifs au département du Jura</unittitle>
+      <unitid>45Fi</unitid>
+      <physdesc/>
+    </did>
+    <acqinfo>
+      <p>Dates d'entrée : décembre 2011</p>
+    </acqinfo>
+    <acqinfo>
+      <head>Modalités d'entrée</head>
+      <p>Le Conseil général du Jura a acquis en 2011, 99 clichés puis en mars 2013, 5 vues complémentaires, concernant diverses localités du Jura. Ceux-ci ont été achetés à Madame Hélène Tabès, propriétaire du fonds photographique réalisé des années 1940 à 1980 par son père, Jean Ribière, photographe professionnel décédé brutalement en 1989. En effet, aucune institution photographique ou patrimoniale nationale, ou institution du lieu d'origine et d'activité du photographe n'ayant accueilli la totalité du fonds photographique de son père, Madame Tabès a décidé de proposer à chaque département où à travaillé son père, d'acquérir les négatifs et éventuels tirages papier s'y rapportant.</p>
+    </acqinfo>
+    <appraisal>
+      <p>Dates de prise en charge : 2011-12-02T00:00:00</p>
+    </appraisal>
+    <bioghist>
+      <p>Jean Ribière, photographe de renom, est né à Niort le 9 février 1922. Il débute sa carrière au service photo du Journal L'Indépendant des Pyrénées-Orientales en 1940. En 1944, il épouse Micheline Vialle, journaliste elle aussi. Jean, excellent photographe, et Micheline, grand reporter, décident alors de créer leur propre agence de presse.<lb/>Ils vendent bientôt leurs reportages à plus d'une centaine de journaux et magazines français et étrangers: L'Express, L'Aurore, Match, Keystone, BBC Londres....<lb/>Dans les années 1950, leurs sujets se diversifient pour s'orienter vers la vie quotidienne française. Ils possèdent notamment de nombreux documents exceptionnels et rares sur chacun des départements français qu'ils ont parcourus pendant plusieurs années afin de mettre en lumière les traditions, l'art roman, la vie rurale, les petits métiers.<lb/>Parallèlement à cette découverte du terroir, ils ont une activité de journalistes sportifs et de chroniques judiciaires.<lb/>Durant les années 1960, le talent de Jean Ribière est reconnu au travers d'expositions internationales de photographies où il reçoit de nombreux premiers prix, notamment en Andorre en 1962.<lb/>Dans les années 1970, Jean et Micheline Ribière donnent une orientation nouvelle à leur agence en proposant aux éditeurs européens et américains des illustrations sur des thèmes de la vie des régions françaises. Toujours en quête de la satisfaction de leurs clients, ils réalisent désormais des reportages hors de France (Espagne, Portugal, Belgique, Italie....).<lb/>Reconnu par la profession pour son action constante de défense des droits d'auteurs, Jean Ribière s'investit beaucoup dans les principales associations professionnelles nationales de photographes.<lb/>Il était vice-président de l'Association nationale des journalistes reporters photographes et cinéastes, dont le président était Robert Doisneau et les membres principaux Henri Cartier-Bresson et Raymond Depardon.<lb/>A sa mort en 1989, Jean Ribière lègue à sa fille, Hélène Tabès, 120 000 documents photographiques ainsi que 150 textes de reportages documentaires, couvrant son activité et celle de sa femme de 1941 à 1989.<lb/>Le 21 août 2002, la Municipalité de Perpignan lui rend hommage en donnant son nom à une rue de la ville, dans un nouveau quartier dédié aux plus grands photo-journalistes mondiaux.</p>
+    </bioghist>
+    <userestrict>
+      <head>Droits financiers réservés pour la réutilisation</head>
+      <p>Les vues de ce fonds ont été numérisées aux Archives départementales du Jura et sont consultables en très basse résolution sur ce présent portail ; toute extraction pour réutilisation à partir du portail est strictement interdite. L'autorisation de Madame Tabès est nécessaire tant que courent les droits d'auteur pour toute réutilisation publique (exposition, publication&amp;), <emph>avec paiement de droits financiers afférents à celle-ci</emph>, par convention entre Madame Tabès et le Président du Conseil général du Jura le 21 octobre 2011, avec avenant du 19 avril 2013, et paiement de la délivrance d'une copie numérique haute résolution aux Archives du Jura.</p>
+    </userestrict>
+    <otherfindaid>
+      <p/>
+    </otherfindaid>
+    <dsc type="othertype">
+      <c id="a011487344285cIhpVM" level="recordgrp">
+        <did>
+          <unitid>45Fi1/1-45Fi1/14</unitid>
+          <physdesc>						
+						
+						
+
+					</physdesc>
+          <unittitle>Abbaye-en-Grandvaux</unittitle>
+        </did>
+        <acqinfo>
+          <p>Entré en : 2012</p>
+        </acqinfo>
+        <acqinfo>
+          <p>achat</p>
+        </acqinfo>
+        <controlaccess>
+          <persname>Jean Ribière</persname>
+          <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+        </controlaccess>
+        <c id="a011487345593LSfwYv" level="subgrp">
+          <did>
+            <unittitle>Le lac</unittitle>
+            <unitid>45Fi1/1-45Fi1/10</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567COnEb5" level="item">
+            <did>
+              <unitid>45Fi1/1</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Deux maisons à l'arrière-plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567Hd0s2j" level="item">
+            <did>
+              <unitid>45Fi1/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue panoramique</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+              <subject>lac</subject>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567OTAj9E" level="item">
+            <did>
+              <unitid>45Fi1/3</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>L'abbaye Notre-Dame du Grandvaux.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Ribière Jean</persname>
+              <subject>église</subject>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567wFrYiu" level="item">
+            <did>
+              <unitid>45Fi1/4</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue panoramique</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a01142349556715gJH7" level="item">
+            <did>
+              <unitid>45Fi1/5</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue panoramique</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567dlsEvw" level="item">
+            <did>
+              <unitid>45Fi1/6</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Une barque au milieu du lac</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567DJIUg2" level="item">
+            <did>
+              <unitid>45Fi1/7</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Barque et maisons</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011487346312eqBuAU" level="item">
+            <did>
+              <unittitle>Pêcheurs en barque (abbaye Notre-Dame de Grandvaux en arrière-plan).</unittitle>
+              <unitid>45Fi1/8</unitid>
+              <physdesc>
+                <extent unit="image">1</extent>
+                <genreform>Etat : bon</genreform>
+                <dimensions>6x6</dimensions>
+                <genreform>Support : film</genreform>
+                <physfacet/>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <acqinfo>
+              <p>Entré : en 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+          </c>
+          <c id="a01148734641375t1DC" level="item">
+            <did>
+              <unittitle>Pêcheurs en barque</unittitle>
+              <unitid>45Fi1/9</unitid>
+              <physdesc>
+                <extent unit="image">1</extent>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <dimensions>6X6</dimensions>
+              </physdesc>
+            </did>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <acqinfo>
+              <p>Entré en 2012</p>
+            </acqinfo>
+            <scopecontent>
+              <p>Entré : en 2012</p>
+            </scopecontent>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+          </c>
+          <c id="a011423495567rFg7I3" level="item">
+            <did>
+              <unittitle>Une barque sur le lac.</unittitle>
+              <unitid>45Fi1/10</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>lac</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011487346507awI1sf" level="subgrp">
+          <did>
+            <unittitle>L'église</unittitle>
+            <unitid>45Fi1/11-45Fi1/12</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567yID8r3" level="item">
+            <did>
+              <unitid>45Fi1/11</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="images">1</extent>
+              </physdesc>
+              <unittitle>Vue extérieure du clocher et du chœur avec une croix au premier plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a0114234955679QlZsv" level="item">
+            <did>
+              <unitid>45Fi1/12</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="images">1</extent>
+              </physdesc>
+              <unittitle>Vue extérieure du clocher et du chœur.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011487346689SWDbdp" level="subgrp">
+          <did>
+            <unittitle>La vieille croix</unittitle>
+            <unitid>45Fi1/13-45Fi1/14</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567VGxaEV" level="item">
+            <did>
+              <unitid>45Fi1/13</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="images">1</extent>
+              </physdesc>
+              <unittitle>Vue centrée sur la croix.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>croix</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567nwMDM6" level="item">
+            <did>
+              <unitid>45Fi1/14</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="images">1</extent>
+              </physdesc>
+              <unittitle>Vue globale.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Abbaye-en-Grandvaux (L'), lieu-dit</geogname>
+              <subject>croix</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011423495567peiEZ5" level="item">
+        <did>
+          <unittitle>Agriculture, fenaison en traineau.</unittitle>
+          <unitid>45Fi2</unitid>
+          <physdesc>
+            <dimensions>6x6</dimensions>
+            <genreform>Etat : bon</genreform>
+            <genreform>Support : film</genreform>
+            <genreform>Type de document : positif couleur</genreform>
+            <extent unit="image">1</extent>
+          </physdesc>
+        </did>
+        <acqinfo>
+          <p>Entré en : 2012</p>
+        </acqinfo>
+        <acqinfo>
+          <p>achat</p>
+        </acqinfo>
+        <controlaccess>
+          <subject>fenaison</subject>
+          <persname>Jean Ribière</persname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <accessrestrict>
+          <p>NC numérisé</p>
+        </accessrestrict>
+      </c>
+      <c id="a011487344849tos7RW" level="recordgrp">
+        <did>
+          <unittitle>Arbois</unittitle>
+          <unitid>45Fi3/1-45Fi3/3</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Arbois, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011487344912U1xCBj" level="subgrp">
+          <did>
+            <unittitle>Scieur de bois dans une rue</unittitle>
+            <unitid>45Fi3/1-45Fi3/3</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Arbois, commune</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567SGrqJH" level="item">
+            <did>
+              <unitid>45Fi3/1</unitid>
+              <physdesc>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue latérale gauche.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Arbois, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567utZSxc" level="item">
+            <did>
+              <unitid>45Fi3/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue latérale droite avec la rue en arrière-plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Arbois, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567lMDEX1" level="item">
+            <did>
+              <unitid>45Fi3/3</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue centrée sur le travail du scieur.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Arbois, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a0114873439019bED5G" level="recordgrp">
+        <did>
+          <unittitle>Architecture</unittitle>
+          <unitid>45Fi4/1-45Fi4/5</unitid>
+        </did>
+        <controlaccess>
+          <persname>Ribière Jean</persname>
+          <subject>ARCHITECTURE</subject>
+        </controlaccess>
+        <c id="a011487343941YXPh1m" level="subgrp">
+          <did>
+            <unittitle>Maison recouverte de "tavaillons"</unittitle>
+            <unitid>45Fi4/1-45Fi4/2  </unitid>
+          </did>
+          <controlaccess>
+            <subject>tavaillon</subject>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a0114873440518MgbyB" level="item">
+            <did>
+              <unitid>45Fi4/1</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue centrée du mur pignon.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>tavaillon</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567tSUWQs" level="item">
+            <did>
+              <unitid>45Fi4/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue globale du mur pignon.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>tavaillon</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011423495567ajiDXg" level="item">
+          <did>
+            <unittitle>Maison recouverte de zinc</unittitle>
+            <unitid>45Fi4/3</unitid>
+            <physdesc>
+              <genreform>Etat : Bon</genreform>
+              <genreform>Support : Papier</genreform>
+              <genreform>Type de document : négatif N&amp;B</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+        <c id="a011487344190zThQPV" level="subgrp">
+          <did>
+            <unittitle>Maisons avec toits restaurés et décorés au sommet par un arbre</unittitle>
+            <unitid>45Fi4/4-45Fi4/5 </unitid>
+          </did>
+          <controlaccess>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567sV0wSV" level="item">
+            <did>
+              <unitid>45Fi4/4</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue de côté.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567ewRs7m" level="item">
+            <did>
+              <unitid>45Fi4/5</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Le mur pignon.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011487343674ZjFHG4" level="recordgrp">
+        <did>
+          <unittitle>Chemin</unittitle>
+          <unitid>45Fi5/1-45Fi5/2</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Chemin, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011487343699RZh3bw" level="subgrp">
+          <did>
+            <unittitle>Silos coopératifs</unittitle>
+            <unitid>45Fi5/1-45Fi5/2  </unitid>
+            <note type="mnesysinternal">
+              <p>required=missing</p>
+            </note>
+          </did>
+          <controlaccess>
+            <geogname>Chemin, commune</geogname>
+            <persname>Ribière Jean</persname>
+            <subject>moisson</subject>
+          </controlaccess>
+          <c id="a0114234955678Hm5sZ" level="item">
+            <did>
+              <unittitle>Livraison de céréales. Vue arrière gauche du chariot.</unittitle>
+              <unitid>45Fi5/1</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Chemin, commune</geogname>
+              <subject>moisson</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567wHEgiI" level="item">
+            <did>
+              <unittitle>Livraison de céréales. Vue avant gauche.</unittitle>
+              <unitid>45Fi5/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Chemin, commune</geogname>
+              <subject>moisson</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011487338049dnFRsx" level="recordgrp">
+        <did>
+          <unittitle>Dole</unittitle>
+          <unitid>45Fi6/1-45Fi6/6</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Dole, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011423495567agp4HE" level="item">
+          <did>
+            <unittitle>Une fontaine et la collégiale Notre-Dame.</unittitle>
+            <unitid>45Fi6/1</unitid>
+            <physdesc>
+              <dimensions>6x6</dimensions>
+              <genreform>Etat : bon</genreform>
+              <genreform>Support : film</genreform>
+              <genreform>Type de document : négatif N&amp;B</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <geogname>Dole, commune</geogname>
+            <subject>cathédrale</subject>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+        <c id="a011487343288uc3f0M" level="subgrp">
+          <did>
+            <unittitle>Ville de Dole</unittitle>
+            <unitid>45Fi 6/2-45Fi 6/6 </unitid>
+          </did>
+          <controlaccess>
+            <geogname>Dole, commune</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567e3mwqy" level="item">
+            <did>
+              <unitid>45Fi6/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Collégiale Notre-Dame entourée de toitures de maisons.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Dole, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <subject>cathédrale</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567YVl25L" level="item">
+            <did>
+              <unitid>45Fi6/3</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Canal du Rhône-au-Rhin et maisons en arrière-plan. </unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Dole, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567HTcgeo" level="item">
+            <did>
+              <unitid>45Fi6/4</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Collégiale Notre-Dame et canal du Rhône-au-Rhin (plan avant gauche).</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Dole, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <subject>cathédrale</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567sAj6s8" level="item">
+            <did>
+              <unitid>45Fi6/5</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Collégiale Notre-Dame et canal du Rhône-au-Rhin (plan arrière gauche).</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Dole, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <subject>cathédrale</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567j77ta6" level="item">
+            <did>
+              <unitid>45Fi6/6</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Collégiale Notre-Dame et canal du Rhône-au-Rhin (vue élargie plan arrière gauche).</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Dole, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <subject>cathédrale</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011487342166mspbMs" level="recordgrp">
+        <did>
+          <unittitle>Lavancia</unittitle>
+          <unitid>45Fi7/1-45Fi7/11</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Lavancia, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011487342187JwXI39" level="subgrp">
+          <did>
+            <unittitle>Eglise construite en bois</unittitle>
+            <unitid>45Fi7/1-45Fi7/10 </unitid>
+          </did>
+          <controlaccess>
+            <geogname>Lavancia, commune</geogname>
+            <subject>église</subject>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011487348157wXJ62I" level="otherlevel" otherlevel="subfile">
+            <did>
+              <unittitle>Vues de l'extérieur</unittitle>
+              <unitid>45Fi7/1-45Fi7/4</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <subject>église</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a011487342296FcD7su" level="item">
+              <did>
+                <unitid>45Fi7/1</unitid>
+                <unittitle>Vue centrée sur le clocher et une partie de la façade.</unittitle>
+                <physdesc>
+                  <extent unit="image">1</extent>
+                  <genreform>Etat : bon</genreform>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>église</subject>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <acqinfo>
+                <p>Entré : en 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+            </c>
+            <c id="a011487342222SA4wqW" level="item">
+              <did>
+                <unitid>45Fi7/2</unitid>
+                <unittitle>Vue centrée avant gauche.</unittitle>
+                <physdesc>
+                  <extent unit="image">1</extent>
+                  <genreform>Etat : bon</genreform>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                </physdesc>
+              </did>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>église</subject>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+            </c>
+            <c id="a0114234955677eZBMu" level="item">
+              <did>
+                <unitid>45Fi7/3</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Vue centrée arrière gauche du clocher et du chœur.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>église</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567vWFF4M" level="item">
+              <did>
+                <unitid>45Fi7/4</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Vue générale arrière gauche du clocher et du chœur.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>église</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011423495567l2cnbp" level="item">
+            <did>
+              <unittitle>Le Maître autel</unittitle>
+              <unitid>45Fi7/5</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011487600397dLE9td" level="item">
+            <did>
+              <unittitle>Les fonds baptismaux</unittitle>
+              <unitid>45Fi7/6-45Fi7/7</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <persname>Ribière Jean</persname>
+              <subject>église</subject>
+            </controlaccess>
+            <c id="a011423495567Bl1ZIv" level="item">
+              <did>
+                <unittitle>Vue générale 1</unittitle>
+                <unitid>45Fi7/6</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>église</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955677mncSp" level="item">
+              <did>
+                <unittitle>Vue générale 2</unittitle>
+                <unitid>45Fi7/7</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Lavancia, commune</geogname>
+                <subject>inscription</subject>
+                <subject>église</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+              <c id="a011487341579mHOWBq" level="item">
+                <did>
+                  <unittitle>Eglise construite en bois</unittitle>
+                </did>
+              </c>
+            </c>
+          </c>
+          <c id="a011423495567mfrfaQ" level="item">
+            <did>
+              <unittitle>Affiche indiquant les maîtres d'œuvre qui ont participé à la construction de l'église.</unittitle>
+              <unitid>45Fi7/8</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567eAbmwY" level="item">
+            <did>
+              <unittitle>Le Maître autel et la fresque.</unittitle>
+              <unitid>45Fi7/9</unitid>
+              <physdesc>
+                <dimensions>20x26,5</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : papier</genreform>
+                <genreform>Technique : Photographie</genreform>
+                <genreform>Type de document : positif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a0114234955670fsQtH" level="item">
+            <did>
+              <unittitle>Détail de la fresque du chœur (La Vierge au manteau).</unittitle>
+              <unitid>45Fi7/10</unitid>
+              <physdesc>
+                <dimensions>20x26,5</dimensions>
+                <genreform>Etat : Bon</genreform>
+                <genreform>Support : papier</genreform>
+                <genreform>Technique : Photographie</genreform>
+                <genreform>Type de document : positif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Lavancia, commune</geogname>
+              <subject>église</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011423495567teLMFb" level="item">
+          <did>
+            <unittitle>Lavancia-Epercy. Vue générale, vallée de la Bienne, intérieur de l'église, place de la Liberté, carte postale</unittitle>
+            <unitid>45Fi7/11</unitid>
+            <physdesc>
+              <dimensions>10x15</dimensions>
+              <genreform>Etat : Bon</genreform>
+              <genreform>Support : Papier</genreform>
+              <genreform>Technique : Photographie</genreform>
+              <genreform>Type de document : carte postale</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <geogname>Lavancia, commune</geogname>
+            <subject>église</subject>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+      </c>
+      <c id="a0114873469029l5o3g" level="recordgrp">
+        <did>
+          <unittitle>Paysages naturels</unittitle>
+          <unitid>45Fi8/1-45Fi8/8</unitid>
+        </did>
+        <controlaccess>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011423495567aU5mO0" level="item">
+          <did>
+            <unittitle>Vallée près de Foncine-le-Haut.</unittitle>
+            <unitid>45Fi8/1</unitid>
+            <physdesc>
+              <dimensions>6x6</dimensions>
+              <genreform>Etat : bon</genreform>
+              <genreform>Support : film</genreform>
+              <genreform>Type de document : négatif N&amp;B</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <subject>paysage naturel</subject>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+        <c id="a0114234955672H71mc" level="item">
+          <did>
+            <unittitle>Vue entre Saint-Claude et Grandvaux : les Monts de Bienne, le village de Lézat.</unittitle>
+            <unitid>45Fi8/2</unitid>
+            <physdesc>
+              <dimensions>6x6</dimensions>
+              <genreform>Etat : bon</genreform>
+              <genreform>Support : film</genreform>
+              <genreform>Type de document : négatif N&amp;B</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <subject>paysage naturel</subject>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+        <c id="a01148734718151FLeF" level="subgrp">
+          <did>
+            <unittitle>Paysages près de Foncine-le-Haut</unittitle>
+            <unitid>45Fi8/3-45Fi8/4</unitid>
+          </did>
+          <controlaccess>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567xq04ed" level="item">
+            <did>
+              <unitid>45Fi8/3</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue générale avec chemin serpentant dans la campagne au premier plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567Y2GJLe" level="item">
+            <did>
+              <unitid>45Fi8/4</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue générale avec chemin serpentant dans la campagne à l'arrière plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011487347332oCzeEg" level="subgrp">
+          <did>
+            <unittitle>[Route de Saint-Claude Monthilier ?]</unittitle>
+            <unitid>45Fi8/5-45Fi8/6</unitid>
+          </did>
+          <controlaccess>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a0114234955679AJL5O" level="item">
+            <did>
+              <unitid>45Fi8/5</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue centrée sur l'entrée d'un village avec le clocher.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567Juxfwi" level="item">
+            <did>
+              <unitid>45Fi8/6</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue générale du paysage campagnard.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011487347549XJ6umE" level="subgrp">
+          <did>
+            <unittitle>Sur la route de Lons-le-Saunier à Saint-Claude</unittitle>
+            <unitid>45Fi8/7-45Fi8/8</unitid>
+          </did>
+          <controlaccess>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567hfLu6q" level="item">
+            <did>
+              <unitid>45Fi8/7</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue générale du paysage campagnard avec un village à l'arrière-plan.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495567n70Tj6" level="item">
+            <did>
+              <unitid>45Fi8/8</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+              <unittitle>Vue générale des combes boisées.</unittitle>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>paysage naturel</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011487347763bDROEj" level="recordgrp">
+        <did>
+          <unittitle>Saint-Claude</unittitle>
+          <unitid>45Fi9/1-45Fi9/52</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Saint-Claude, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011487347840iYDfag" level="subgrp">
+          <did>
+            <unittitle>Vues générales</unittitle>
+            <unitid>45Fi9/1-45Fi9/12</unitid>
+          </did>
+          <accessrestrict>
+            <p>Communicable</p>
+          </accessrestrict>
+          <controlaccess>
+            <geogname>Saint-Claude, commune</geogname>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495567jYDAY6" level="item">
+            <did>
+              <unittitle>Rue de la Poyat,</unittitle>
+              <unitid>45Fi9/1</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011487347936Qy5dXE" level="otherlevel" otherlevel="subfile">
+            <did>
+              <unittitle>La cathédrale</unittitle>
+              <unitid>45Fi9/2-45Fi9/3</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <subject>cathédrale</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a011423495567il4VB6" level="item">
+              <did>
+                <unitid>45Fi9/2</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Vue centrée sur la façade et le côté latéral gauche.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>cathédrale</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567bVJwhC" level="item">
+              <did>
+                <unitid>45Fi9/3</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Vue générale de la façade et du côté latéral droit (paysage en arrière-plan).</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>création</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>cathédrale</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011487348939CmIPQM" level="otherlevel" otherlevel="subfile">
+            <did>
+              <unittitle>Vues d'ensemble</unittitle>
+              <unitid>45Fi9/4-45Fi9/10</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a0114234955678yOqqZ" level="item">
+              <did>
+                <unittitle>L'hôpital et le quartier de Serger.</unittitle>
+                <unitid>45Fi9/4</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955670XjvsT" level="item">
+              <did>
+                <unittitle>La ville et ses alentours.</unittitle>
+                <unitid>45Fi9/5</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567IChS3Z" level="item">
+              <did>
+                <unittitle>Le quartier du faubourg.</unittitle>
+                <unitid>45Fi9/6</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567UX54AF" level="item">
+              <did>
+                <unittitle>La ville et ses alentours.</unittitle>
+                <unitid>45Fi9/7</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567u0x2Tr" level="item">
+              <did>
+                <unittitle>La ville et ses alentours.</unittitle>
+                <unitid>45Fi9/8</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a01142349556771szco" level="item">
+              <did>
+                <unittitle>La ville et ses alentours.</unittitle>
+                <unitid>45Fi9/9</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567P4Cf0p" level="item">
+              <did>
+                <unittitle>La ville et ses alentours.</unittitle>
+                <unitid>45Fi9/10</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011487578396X4AS3X" level="otherlevel" otherlevel="subfile">
+            <did>
+              <unittitle>Un quartier industriel</unittitle>
+              <unitid>45Fi9/11-45Fi9/12</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a0114234955678iRa9l" level="item">
+              <did>
+                <unittitle>Quartier des Arrivoirs et du moulin</unittitle>
+                <unitid>45Fi9/11</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a01142349556707jVtb" level="item">
+              <did>
+                <unittitle>Sous le pré.</unittitle>
+                <unitid>45Fi9/12</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+        </c>
+        <c id="a011487578778Ed4d2z" level="subgrp">
+          <did>
+            <unittitle>Industrie de la pipe</unittitle>
+            <unitid>45Fi9/13-45Fi9/52</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Saint-Claude, commune</geogname>
+            <persname>Ribière Jean</persname>
+            <subject>usine de pipes</subject>
+          </controlaccess>
+          <c id="a011487578883dcBCRh" level="item">
+            <did>
+              <unittitle>Un tourneur dans un atelier</unittitle>
+              <unitid>45Fi9/13-45Fi9/20</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+              <subject>usine de pipes</subject>
+            </controlaccess>
+            <c id="a011423495567TBhAcD" level="item">
+              <did>
+                <unittitle>Le tourneur calibre la pièce.</unittitle>
+                <unitid>45Fi9/13</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>création</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955673T8mrF" level="item">
+              <did>
+                <unitid>45Fi9/14</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Matériel : le tour.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567Xrn6fU" level="item">
+              <did>
+                <unitid>45Fi9/15</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Préparation du tour.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567wnn3fc" level="item">
+              <did>
+                <unitid>45Fi9/16</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Le tourneur façonne la pièce de la pipe sur son tour.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955674RgDMP" level="item">
+              <did>
+                <unitid>45Fi9/17</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Le travail du tourneur : le façonnage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567p1W01b" level="item">
+              <did>
+                <unitid>45Fi9/18</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Le travail du tourneur : le façonnage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>création</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567X5p55b" level="item">
+              <did>
+                <unitid>45Fi9/19</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Résultat du travail du tourneur : la pipe est façonnée.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <subject>usine de pipes</subject>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567QvHFE3" level="item">
+              <did>
+                <unittitle>Le travail du tourneur.</unittitle>
+                <unitid>45Fi9/20</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a0114875791550UySem" level="item">
+            <did>
+              <unittitle>Bois prêt pour la fabrication</unittitle>
+              <unitid>45Fi9/21-45Fi9/24</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <subject>usine de pipes</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a011423495567R2YF66" level="item">
+              <did>
+                <unitid>45Fi9/21</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Modèles de pipes sculptées (thème de la nature).</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955671yFpod" level="item">
+              <did>
+                <unitid>45Fi9/22</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Présentation d'un grand modèle.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567juI9wM" level="item">
+              <did>
+                <unitid>45Fi9/23</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Modèle de pipe sculptée (visage).</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567cIUmoU" level="item">
+              <did>
+                <unittitle>Grand modèle de pipe.</unittitle>
+                <unitid>45Fi9/24</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a0114875793614EAVd0" level="item">
+            <did>
+              <unittitle>Tourneurs, sculpteurs travaillant le bois</unittitle>
+              <unitid>45Fi9/25-45Fi9/32</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+              <subject>usine de pipes</subject>
+            </controlaccess>
+            <c id="a011423495567Eid5SB" level="item">
+              <did>
+                <unitid>45Fi9/25</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>L'ébauchage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567eUtFfa" level="item">
+              <did>
+                <unitid>45Fi9/26</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Le tourneur façonne la pièce.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567MhFAyO" level="item">
+              <did>
+                <unitid>45Fi9/27</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Sculpture de la pièce.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567SQuzwC" level="item">
+              <did>
+                <unitid>45Fi9/28</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Sculpture de la pièce.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567mqqO91" level="item">
+              <did>
+                <unitid>45Fi9/29</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Vérification de l'ébauchon qui est devenu tête.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567GJ3HOY" level="item">
+              <did>
+                <unitid>45Fi9/30</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Râpage de l'ébauchon qui est devenu tête. </unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567Sm7b6D" level="item">
+              <did>
+                <unitid>45Fi9/31</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Râpage de l'ébauchon qui est devenu tête.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567if8vgs" level="item">
+              <did>
+                <unitid>45Fi9/32</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Perçage de la tige de la pipe.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011487579591dISV8T" level="item">
+            <did>
+              <unittitle>Etapes de fabrication</unittitle>
+              <unitid>45Fi9/33-45Fi9/39</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+              <subject>usine de pipes</subject>
+            </controlaccess>
+            <c id="a011423495567UyUvvO" level="item">
+              <did>
+                <unitid>45Fi9/33</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Des têtes de pipes en attente de montage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955670tuXbQ" level="item">
+              <did>
+                <unitid>45Fi9/34</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Des têtes de pipes en attente de montage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567qaWhpr" level="item">
+              <did>
+                <unitid>45Fi9/35</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Ebauches de têtes de pipes.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567pbaAQj" level="item">
+              <did>
+                <unitid>45Fi9/36</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Des ébauches de têtes de pipes en attente de façonnage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567dqQSPy" level="item">
+              <did>
+                <unitid>45Fi9/37</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Modèles de pipes sculptées en attente de badigeonnage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567nbCptX" level="item">
+              <did>
+                <unitid>45Fi9/38</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Modèles de pipes sculptées en attente de badigeonnage.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>création</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567giz5ja" level="item">
+              <did>
+                <unitid>45Fi9/39</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Le polissage de la pipe.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a0114875840747gesG9" level="item">
+            <did>
+              <unittitle>Pipes sculptées</unittitle>
+              <unitid>45Fi9/40-45Fi9/42</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <subject>usine de pipes</subject>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <c id="a011423495567f8089s" level="item">
+              <did>
+                <unittitle>Modèles de pipes sculptées (thème de la nature).</unittitle>
+                <unitid>45Fi9/40</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955678boA2u" level="item">
+              <did>
+                <unitid>45Fi9/41</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+                <unittitle>Modèles de pipes sculptées (visages).</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567faUAd2" level="item">
+              <did>
+                <unitid>45Fi9/42</unitid>
+                <physdesc>
+                  <dimensions>6x6</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : film</genreform>
+                  <genreform>Type de document : négatif N&amp;B</genreform>
+                  <extent unit="images">1</extent>
+                </physdesc>
+                <unittitle>Modèle de pipe sculptée.</unittitle>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011487584277SMqUsu" level="item">
+            <did>
+              <unittitle>Métiers-occupations</unittitle>
+              <unitid>45Fi9/43-45Fi9/50</unitid>
+            </did>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <persname>Ribière Jean</persname>
+              <subject>usine de pipes</subject>
+            </controlaccess>
+            <c id="a011423495567DYGPIG" level="item">
+              <did>
+                <unittitle>Pipe sculptée représentant une tête d'homme barbu.</unittitle>
+                <unitid>45Fi9/43</unitid>
+                <physdesc>
+                  <dimensions>12x17</dimensions>
+                  <genreform>Etat : Bon</genreform>
+                  <genreform>Support : Papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 20121</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567rYAS80" level="item">
+              <did>
+                <unittitle>Pipe sculptée représentant la tête de Junon.</unittitle>
+                <unitid>45Fi9/44</unitid>
+                <physdesc>
+                  <dimensions>12x17</dimensions>
+                  <genreform>Etat : Bon</genreform>
+                  <genreform>Support : Papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a0114234955672xDgx6" level="item">
+              <did>
+                <unittitle>Buis utilisé pour la fabrication des pipes entreposé dans des hangars.</unittitle>
+                <unitid>45Fi9/45</unitid>
+                <physdesc>
+                  <dimensions>20x26</dimensions>
+                  <genreform>Etat : Bon</genreform>
+                  <genreform>Support : Papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567f7HqjM" level="item">
+              <did>
+                <unittitle>Un ouvrier découpe les branches de buis suivant la dimension des pièces à exécuter.</unittitle>
+                <unitid>45Fi9/46</unitid>
+                <physdesc>
+                  <dimensions>20x26</dimensions>
+                  <genreform>Etat : Bon</genreform>
+                  <genreform>Support : Papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Jean Ribière</persname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567xy1Oso" level="item">
+              <did>
+                <unittitle>Un atelier de fabrication de têtes de diable. Création de souvenirs pour les touristes.</unittitle>
+                <unitid>45Fi9/47</unitid>
+                <physdesc>
+                  <dimensions>20x24</dimensions>
+                  <genreform>Etat : Bon</genreform>
+                  <genreform>Support : Papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2012</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495567coe6qI" level="item">
+              <did>
+                <unittitle>Artisan sculptant une tête d'homme sur une pipe.</unittitle>
+                <unitid>45Fi9/48</unitid>
+                <physdesc>
+                  <dimensions>24X20,5</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2013</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495568PR10QC" level="item">
+              <did>
+                <unittitle>Artisan limant des pipes. </unittitle>
+                <unitid>45Fi9/49</unitid>
+                <unitdate normal="1950-01-01/1950-12-31">[1950]</unitdate>
+                <physdesc>
+                  <dimensions>16X12,5</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2013</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+            <c id="a011423495568zVoUqX" level="item">
+              <did>
+                <unittitle>Artisan vérifiant des pipes. </unittitle>
+                <unitid>45Fi9/50</unitid>
+                <unitdate normal="1950-01-01/1950-12-31">[1950]</unitdate>
+                <physdesc>
+                  <dimensions>12X14</dimensions>
+                  <genreform>Etat : bon</genreform>
+                  <genreform>Support : papier</genreform>
+                  <genreform>Technique : Photographie</genreform>
+                  <genreform>Type de document : positif N&amp;B</genreform>
+                  <extent unit="image">1</extent>
+                </physdesc>
+              </did>
+              <acqinfo>
+                <p>Entré en : 2013</p>
+              </acqinfo>
+              <acqinfo>
+                <p>achat</p>
+              </acqinfo>
+              <controlaccess>
+                <geogname>Saint-Claude, commune</geogname>
+                <persname>Ribière Jean</persname>
+                <subject>usine de pipes</subject>
+              </controlaccess>
+              <accessrestrict>
+                <p>NC numérisé</p>
+              </accessrestrict>
+            </c>
+          </c>
+          <c id="a011423495568xwvUqT" level="item">
+            <did>
+              <unittitle>Un tourneur dans un atelier sur son tour.</unittitle>
+              <unitid>45Fi9/51</unitid>
+              <unitdate normal="1950-01-01/1950-12-31">[1950]</unitdate>
+              <physdesc>
+                <dimensions>6X6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2013</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <subject>usine de pipes</subject>
+              <persname>jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495568clcVEe" level="item">
+            <did>
+              <unittitle>Un atelier de fabrication de pipes.</unittitle>
+              <unitid>45Fi9/52</unitid>
+              <unitdate normal="1950-01-01/1950-12-31">[1950]</unitdate>
+              <physdesc>
+                <dimensions>6X6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2013</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Saint-Claude, commune</geogname>
+              <subject>usine de pipes</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+      </c>
+      <c id="a011487584730ufe34Y" level="recordgrp">
+        <did>
+          <unittitle>Saint-Laurent-en-Grandvaux (dit du Jura)</unittitle>
+          <unitid>45Fi10/1-45Fi10/3</unitid>
+        </did>
+        <controlaccess>
+          <geogname>Saint-Laurent-en-Grandvaux, commune</geogname>
+          <persname>Ribière Jean</persname>
+        </controlaccess>
+        <c id="a011487584804fC5vRv" level="subgrp">
+          <did>
+            <unittitle>Vaches de race montbéliarde</unittitle>
+            <unitid>45Fi10/1-45Fi10/2</unitid>
+          </did>
+          <controlaccess>
+            <geogname>Saint-Laurent-en-Grandvaux, commune</geogname>
+            <subject>élevage</subject>
+            <persname>Ribière Jean</persname>
+          </controlaccess>
+          <c id="a011423495568XoQfsB" level="item">
+            <did>
+              <unittitle>Trois vaches près d'une fontaine.</unittitle>
+              <unitid>45Fi10/1</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <geogname>Saint-Laurent-en-Grandvaux, commune</geogname>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+              <subject>élevage</subject>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+          <c id="a011423495568teSjWA" level="item">
+            <did>
+              <unittitle>Groupe de vaches près d'une fontaine.</unittitle>
+              <unitid>45Fi10/2</unitid>
+              <physdesc>
+                <dimensions>6x6</dimensions>
+                <genreform>Etat : bon</genreform>
+                <genreform>Support : film</genreform>
+                <genreform>Type de document : négatif N&amp;B</genreform>
+                <extent unit="image">1</extent>
+              </physdesc>
+            </did>
+            <acqinfo>
+              <p>Entré en : 2012</p>
+            </acqinfo>
+            <acqinfo>
+              <p>achat</p>
+            </acqinfo>
+            <controlaccess>
+              <subject>élevage</subject>
+              <persname>Jean Ribière</persname>
+              <persname>Ribière Jean</persname>
+              <geogname>Saint-Laurent-en-Grandvaux, commune</geogname>
+            </controlaccess>
+            <accessrestrict>
+              <p>NC numérisé</p>
+            </accessrestrict>
+          </c>
+        </c>
+        <c id="a011423495568wHGzUn" level="item">
+          <did>
+            <unittitle>Eglise : Bas relief d'un bénitier représentant saint Laurent et son gril.</unittitle>
+            <unitid>45Fi10/3</unitid>
+            <physdesc>
+              <dimensions>20x26</dimensions>
+              <genreform>Etat : Bon</genreform>
+              <genreform>Support : Papier</genreform>
+              <genreform>Technique : Photographie</genreform>
+              <genreform>Type de document : positif N&amp;B</genreform>
+              <extent unit="image">1</extent>
+            </physdesc>
+          </did>
+          <acqinfo>
+            <p>Entré en : 2012</p>
+          </acqinfo>
+          <acqinfo>
+            <p>achat</p>
+          </acqinfo>
+          <controlaccess>
+            <geogname>Saint-Laurent-en-Grandvaux, commune</geogname>
+            <persname>Jean Ribière</persname>
+            <persname>Ribière Jean</persname>
+            <subject>église</subject>
+          </controlaccess>
+          <accessrestrict>
+            <p>NC numérisé</p>
+          </accessrestrict>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

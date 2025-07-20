@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" audience="external" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader>
+    <eadid identifier="FRAD004_EDEP_004" url="https://francearchives.fr/findingaid/8c63678b3ce9fce09e367da63d9f321a5c62e210" countrycode="FR">FRAD004_EDEP_004</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Répertoire numérique des archives communales d'Allemagne-en-Provence</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>AD des Alpes-de-Haute-Provence</publisher>
+      </publicationstmt>
+    </filedesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unitid>
+        <extptr ns2:type="simple" ns2:href="http://archives04.fr/r/133/fonds-des-archives-communales-deposees/" />
+      </unitid>
+      <unittitle>Répertoire numérique des archives communales d'Allemagne-en-Provence</unittitle>
+      <unitdate>1444 - 1976</unitdate>
+      <physdesc>papier</physdesc>
+      <origination>Commune</origination>
+      <langmaterial>français ; latin</langmaterial>
+    </did>
+    <controlaccess>
+      <corpname>commune</corpname>
+      <genreform>affiche</genreform>
+      <genreform>cahier</genreform>
+      <genreform>correspondance</genreform>
+      <genreform>liste</genreform>
+      <genreform>plan</genreform>
+      <genreform>procès-verbal</genreform>
+      <genreform>publication administrative</genreform>
+      <genreform>registre</genreform>
+      <geogname>Allemagne-en-Provence (Alpes-de-Haute-Provence, France)</geogname>
+      <subject>agriculture</subject>
+      <subject>association de malfaiteur</subject>
+      <subject>association syndicale de propriétaires</subject>
+      <subject>biens communaux</subject>
+      <subject>calamité agricole</subject>
+      <subject>commune</subject>
+      <subject>communisme</subject>
+      <subject>contentieux administratif</subject>
+      <subject>crime de guerre</subject>
+      <subject>culte</subject>
+      <subject>fabrique d'église</subject>
+      <subject>finances communales</subject>
+      <subject>garde nationale</subject>
+      <subject>guerre 1939-1945</subject>
+      <subject>impôts locaux</subject>
+      <subject>justice</subject>
+      <subject>maladie des animaux</subject>
+      <subject>milices</subject>
+      <subject>personnel</subject>
+      <subject>police administrative</subject>
+      <subject>population</subject>
+      <subject>prestation d'aide sociale légale</subject>
+      <subject>recrutement militaire</subject>
+      <subject>santé</subject>
+      <subject>structure communale d'aide sociale</subject>
+      <subject>voirie</subject>
+      <subject>école</subject>
+      <subject>élection</subject>
+      <subject>épidémie</subject>
+      <subject>état civil</subject>
+      <subject>étranger</subject>
+    </controlaccess>
+    <relatedmaterial>
+      <p>MOUTON (Daniel), La Moutte d'Allemagne-en-Provence, un castrum précoce du Moyen Ageprovençal, Arles, Aix-en-Provence, Éditions Errance, 2015.</p>
+    </relatedmaterial>
+    <accessrestrict>
+      <p>Conformément aux dispositions du Code du patrimoine, ces documents sont librement communicables, sous réserve de leur état de conservation matérielle. S'ils sont disponibles sous forme de microfilms ou de numérisations, les originaux ne sont pas communiqués.</p>
+    </accessrestrict>
+    <userestrict>
+      <p>Libre.</p>
+    </userestrict>
+  </archdesc>
+</ead>

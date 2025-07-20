@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" audience="external" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader>
+    <eadid identifier="FRAD004_Y" url="https://francearchives.fr/findingaid/0928a3476cb46a5fb3dfaf13b5e2987ab4f0c2c4" countrycode="FR">FRAD004_Y</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Répertoire numérique de la série Y</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>AD des Alpes-de-Haute-Provence</publisher>
+      </publicationstmt>
+    </filedesc>
+  </eadheader>
+  <archdesc level="fonds">
+    <did>
+      <unitid>
+        <extptr ns2:type="simple" ns2:href="http://www.archives04.fr/a/829/archives-des-etablissements-penitentiaires-de-1802-a-1979/" />
+      </unitid>
+      <unittitle>Répertoire numérique de la série Y</unittitle>
+      <unitdate>1802 - 1979</unitdate>
+      <physdesc>papier</physdesc>
+      <origination>Préfecture, établissements pénitentiaires</origination>
+      <langmaterial>français</langmaterial>
+    </did>
+    <controlaccess>
+      <genreform>Registre</genreform>
+      <genreform>correspondance</genreform>
+      <geogname>Barcelonnette (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Castellane (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Digne-les-Bains (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Forcalquier (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Riez (Alpes-de-Haute-Provence, France)</geogname>
+      <geogname>Sisteron (Alpes-de-Haute-Provence, France)</geogname>
+      <persname>Giono, Jean (1895-1970)</persname>
+      <subject>établissement pénitentiaire</subject>
+    </controlaccess>
+    <relatedmaterial>
+      <p>Voir l’importante bibliographie relative à la « culture en milieu pénitentiaire » en suivant le lien :http://www.justice.gouv.fr/art_pix/BibliographieCulturePrison.pdf</p>
+    </relatedmaterial>
+    <accessrestrict>
+      <p>Conformément aux dispositions du Code du patrimoine, ces documents sont librement communicables, sous réserve de leur état de conservation matérielle. S'ils sont disponibles sous forme de microfilms ou de numérisation, les originaux ne sont pas communiqués.</p>
+    </accessrestrict>
+    <userestrict>
+      <p>L'utilisation ou la reproduction de ces documents en vue d'un usage autre que privé, est soumise à l'autorisation des Archives des Alpes-de-Haute-Provence.</p>
+    </userestrict>
+  </archdesc>
+</ead>

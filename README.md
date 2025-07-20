@@ -1,6 +1,8 @@
-# CSV2OAI : Serveur OAI-PMH pour fichier CSV
+# CSV2OAI : Serveur OAI-PMH pour fichiers CSV et EAD
 
-Ce projet implémente un serveur OAI-PMH (_Open Archives Initiative Protocol for Metadata Harvesting_) simple, en **PHP**, dont les données proviennent d’un fichier **CSV** contenant des métadonnées au format _Dublin Core Element Set_.
+Ce projet implémente un serveur OAI-PMH (_Open Archives Initiative Protocol for Metadata Harvesting_) simple, en **PHP**. Il expose des métadonnées provenant de deux sources : un fichier **CSV** (au format _Dublin Core Element Set_) et des fichiers **XML/EAD** (Encoded Archival Description).
+
+> **Note pédagogique :** Ce projet a été développé à des fins éducatives pour illustrer le fonctionnement du protocole OAI-PMH, notamment la gestion des verbes, des formats de métadonnées (oai_dc et EAD), des sets, de la pagination via les resumptionTokens, et les défis liés au moissonnage de données à grande échelle. Il sert de support pour comprendre les interactions entre un entrepôt OAI-PMH et un moissonneur.
 
 > Note : code écrit avec l'aide du LLM [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) sur Prompt personnel.
 
@@ -22,6 +24,8 @@ Ce projet implémente un serveur OAI-PMH (_Open Archives Initiative Protocol for
 | `oai-pmh.php`    | Point d’entrée principal du serveur OAI-PMH |
 | `utils.php`      | Fonctions PHP auxiliaires pour charger et accéder aux données |
 | `data.csv`       | Base de données CSV avec les enregistrements Dublin Core |
+| `ead/`           | Dossier contenant les fichiers XML/EAD moissonnés |
+| `harvest.py`     | Script Python pour moissonner les données OAI-PMH (ex: FranceArchives) |
 | `index.html`     | Interface de test OAI-PMH (facultative) |
 
 ---
@@ -74,6 +78,16 @@ set;identifier;title;creator;subject;description;publisher;date;type;format;lang
 
 - set : est le marqueur pour le Set de l'OAI-PMH et est utilisé dans le verbe `ListSets`.
 - Les autres champs correspondent aux chamsp du _Dublin Core Element Set_.
+
+---
+
+## Gestion des fichiers XML/EAD
+
+En plus du fichier CSV, ce serveur OAI-PMH est capable d'exposer des instruments de recherche au format **EAD (Encoded Archival Description)**. Ces fichiers doivent être placés dans le dossier `ead/`.
+
+Le serveur parcourt récursivement ce dossier. Chaque sous-dossier direct de `ead/` est traité comme un `set` OAI-PMH. Par exemple, un fichier `ead/serie_Fi/mon_ir.xml` sera associé au set `serie_Fi`.
+
+Lors d'une requête `GetRecord` avec `metadataPrefix=ead`, le serveur renvoie le contenu XML complet du fichier EAD correspondant.
 
 ---
 
@@ -146,6 +160,26 @@ Contient les fonctions de traitement du fichier CSV.
 
 ---
 
+## Script de moissonnage (moisson.py)
+
+Pour illustrer le processus de moissonnage des données OAI-PMH, un script Python nommé `harvest.py` est inclus dans ce projet. Ce script est conçu pour : 
+
+1.  **Collecter tous les identifiants** d'un `set` donné (par exemple, un service d'archives sur FranceArchives.gouv.fr) en gérant la pagination via les `resumptionToken`.
+2.  **Télécharger chaque document XML/EAD** correspondant à ces identifiants.
+
+### Utilisation
+
+1.  **Prérequis :** Assurez-vous d'avoir Python 3 et la bibliothèque `requests` installés (`pip install requests`).
+2.  **Configuration :** Modifiez les variables `OAI_BASE_URL`, `SET_TO_HARVEST`, et `METADATA_PREFIX` dans le script `harvest.py` pour cibler l'entrepôt et le set souhaités.
+3.  **Exécution :** Lancez le script depuis votre terminal :
+    ```bash
+    python3 harvest.py
+    ```
+
+Le script créera un dossier `harvest_NOM_DU_SET/` et y sauvegardera tous les fichiers XML/EAD moissonnés.
+
+---
+
 ## Notes et limitations
 
 - Les données sont intégralement extraites depuis `data.csv`.
@@ -168,11 +202,12 @@ A : Assurez-vous que le fichier `data.csv` est encodé en UTF-8 sans BOM, avec `
 
 Ce projet est open-source, voir le fichier LICENSE pour plus d'information.
 
-Citation : POUYLLAU, S. (CNRS) with Mistral 7b, _CSV2OAI : Serveur OAI-PMH pour fichier CSV_, juillet 2025.
+Citation : POUYLLAU, S. (CNRS), FERAL; J. with Mistral 7b and Gemini, _CSV2OAI : Serveur OAI-PMH pour fichier CSV_, juillet 2025.
 
 ---
 
 ## Contact
 
 Créé par Stéphane Pouyllau, ingénieur de recherche CNRS. 
+Modifié par J. FERAL.
 Date : juillet 2025.
