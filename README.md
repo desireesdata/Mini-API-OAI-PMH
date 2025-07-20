@@ -5,6 +5,7 @@ Ce projet implémente un serveur OAI-PMH (_Open Archives Initiative Protocol for
 > **Note pédagogique :** Ce projet a été développé à des fins éducatives pour illustrer le fonctionnement du protocole OAI-PMH, notamment la gestion des verbes, des formats de métadonnées (oai_dc et EAD), des sets, de la pagination via les resumptionTokens, et les défis liés au moissonnage de données à grande échelle. Il sert de support pour comprendre les interactions entre un entrepôt OAI-PMH et un moissonneur.
 
 > Note : code écrit avec l'aide du LLM [Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) sur Prompt personnel.
+> Note 2: il a été modifié avec Gemini.
 
 ---
 

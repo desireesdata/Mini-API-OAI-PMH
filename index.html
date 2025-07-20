@@ -1258,7 +1258,7 @@ pre[class*="language-"] {
 <p>Cependant, on pourrait imaginer que c'est à l'archiviste de gérer directement les mises en ligne des IR via le CMS [OMEKA](<a href="https://omeka.org/classic/docs/Plugins/OaiPmhRepository/">OAI-PMH Repository - Omeka Classic User Manual</a>), installé par le service informatique et dont un accès administrateur aura été configuré pour l'archiviste. L'objectif, ici, est de comprendre la logique générale des verbes de l'OAI-PHM avec une structure simple.</p>
 </blockquote>
 <p>On a construit notre API autour de cette URL (qui ne renvoie rien, c'est normal car, comme on l'a vu, OAI-PHM repose sur la logique des verbes + paramètres)</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php</code></pre>
 <blockquote>
 <p>Le code est basé sur ce projet (qui, cependant, a été modifié) :</p>
 <ul>
@@ -1272,7 +1272,7 @@ pre[class*="language-"] {
 <p>⚠️ Rappel : pour voir les données complètes renvoyées , je vous recommande d'utiliser <code>curl</code> ou bien de faire un CTRL+U (afficher le code source de la page).</p>
 <h2 class="atx" id="sur-land39entrepot-du-service-dand39archives-imaginaire-identifier">Sur l'entrepôt du Service d'archives imaginaire (Identifier)</h2>
 <p>On expose donc nos métadonnées via cette "action" OAI-PMH qu'est "Identifier" :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=Identify</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=Identify</code></pre>
 <p>Je vous invite à entrer tester l'URL !</p>
 <p>Elles renseignent sur notre service d'archives imaginaire. On a pas renseigné grand chose, mais on voit que le verbe renvoie des informations sur l'entrepôt. C'est un bon premier pas, et il peut être intéressant de tester sur différents sites (francearchives, bnf, abes, etc.) ce verbe pour comprendre la logique. Je vous soumets la réponse pour France Archives :</p>
 <ul>
@@ -1285,12 +1285,12 @@ pre[class*="language-"] {
 <p>On voit qu'on a donc le lien de l'API autour duquel se construit nos requêtes (qui sont des raffinements de la méthode HTTP "GET", comme on l'a vu). Ici, on indique notre premier verbe avec <code>?</code>  puis on lui assigne une valeur <code>Identify</code> qui fait se comporte comme une fonction : un verbe est une action, et on lui dit quelle action on veut (obtenir les métadonnées identificatrices de l'entrepôt).</p>
 <h2 class="atx" id="quel-genre-de-donnees--listmetadataformat">Quel genre de données ? (ListMetadataFormat)</h2>
 <p>On expose des données, certes, mais dans quel(s) formats? Ici, du XML/EAD ! On peut le voir avec :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=ListMetadataFormats</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListMetadataFormats</code></pre>
 <p>Qui affiche </p>
 <pre><code class="fenced-code-block">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"&gt;
   &lt;responseDate&gt;2025-07-19T18:18:09Z&lt;/responseDate&gt;
-  &lt;request verb="ListMetadataFormats"&gt;http://localhost:8000/oai-pmh.php&lt;/request&gt;
+  &lt;request verb="ListMetadataFormats"&gt;http://desireesdata.fr/oai_ead/oai-pmh.php&lt;/request&gt;
   &lt;ListMetadataFormats&gt;
     &lt;metadataFormat&gt;
       &lt;metadataPrefix&gt;oai_dc&lt;/metadataPrefix&gt;
@@ -1320,7 +1320,7 @@ pre[class*="language-"] {
 </ul>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <h2 class="atx" id="quels-sont-nos-ensembles-de-donnees-listsets">Quels sont nos ensembles de données: ListSets</h2>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=ListSets</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListSets</code></pre>
 <p>Le classement des IR en ensembles dépend de l'organisation du service d'archives. C'est facultatif d'organiser en sets, mais pour notre exemple on pose 1 set = 1 série. On voit qu'on a différents éléments, mais on va se concentrer sur l'EAD. On a décidé avec le Service Informatique que les fichiers XML/EAD exposés seront à déposer dans le dossier "EAD" ; et qu'un dossier = 1 série :</p>
 <p><img alt="" src="img/listSet.png"></p>
 <blockquote>
@@ -1330,7 +1330,7 @@ pre[class*="language-"] {
 <pre><code class="fenced-code-block language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>OAI-PMH</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.openarchives.org/OAI/2.0/<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>responseDate</span><span class="token punctuation">&gt;</span></span>2025-07-19T18:35:07Z<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>responseDate</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListSets<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://localhost:8000/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListSets<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://desireesdata.fr/oai_ead/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListSets</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>set</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>setSpec</span><span class="token punctuation">&gt;</span></span>Photo1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>setSpec</span><span class="token punctuation">&gt;</span></span>
@@ -1372,7 +1372,7 @@ pre[class*="language-"] {
 <h4 class="atx" id="afficher-la-liste-des-andquotrecordsandquot-disponibles-listrecords-listidentifiers">Afficher la liste des "records" disponibles: ListRecords, ListIdentifiers</h4>
 <p><strong>ListRecords</strong>. Les choses deviennent intéressantes ! On va enfin pouvoir commencer à entrevoir les questions de <em>moissonnage</em>. Mais avant de moissonner des tas d'IR, on va commencer par apprendre à en récupérer un via OAI-PMH.</p>
 <p>Alors comment récupérer <em>un</em> instrument de recherche ? Pour récupérer <em>un</em> instrument de recherche, il faut déjà savoir comment il est identifié. On peut donc afficher l'ensemble des <em>records</em> disponibles avec le verbe <code>ListRecords</code> :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=ListRecords</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListRecords</code></pre>
 <p>Chaque <em>record</em> est décrit entre deux balises <code>&lt;record&gt;</code>. On voit qu'on a dix <em>records</em> (8 instruments de recherche en XML/EAD, et deux entités stockées dans un fichier csv. On ignore le fichier .csv, qui ici permet de montrer, avec le jeu des distinctions, que OAI-PHM n'est pas seulement utile pour exposer du XML/EAD, mais aussi d'autres type de données. </p>
 <blockquote>
 <p>Ce n'est pas important d'entrer dans les détails autour du csv, mais ici, notre .csv fait office de base de données en table. Chaque ligne (ou "enregistrement") de notre table .csv est considéré comme un élément à exposer par OAI-PHM. Ici, c'est le Dublin Core qui en décrit les métadonées.  C'est pour cela que ListMetaDataFormats ne renvoie pas "csv" ET "ead". Csv est un moyen de stocker des données, pas de les décrire. On utilise non pas XML pour décrire ses lignes, mais Dublin Core. Bref, ce n'est pas l'essentiel, ici on a gardé le .csv pour avoir des données différentes de XML, pour montrer des différences.</p>
@@ -1397,12 +1397,12 @@ pre[class*="language-"] {
 </blockquote>
 <p>Si on fait <code>ListRecords</code> sur France Archives : ça ne marchera pas ! C'est une restriction côté serveur car il y a des centaines de milliers d'instruments de recherche et demander autant d'IR d'un coup ça pourrait poser des problèmes. Il faut donc en demander moins avec des <strong>filtres</strong>. </p>
 <p><strong>ListIdentifiers</strong>. Mais avant de parler des filtres, on peut aussi utiliser <code>ListIdentifiers</code> pour afficher une information moins prolixe :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=ListIdentifiers</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListIdentifiers</code></pre>
 <p>On obtient quelque chose comme (frament) ça, avec une liste de <code>&lt;header&gt;</code>:</p>
 <pre><code class="fenced-code-block language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>OAI-PMH</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.openarchives.org/OAI/2.0/<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>responseDate</span><span class="token punctuation">&gt;</span></span>2025-07-20T08:49:53Z<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>responseDate</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListIdentifiers<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://localhost:8000/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListIdentifiers<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://desireesdata.fr/oai_ead/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListIdentifiers</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>identifier</span><span class="token punctuation">&gt;</span></span>oai:example:1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>identifier</span><span class="token punctuation">&gt;</span></span>
@@ -1435,7 +1435,7 @@ pre[class*="language-"] {
 <p>On a vu que certains services OAI-PHM, pour des raisons techniques/de sécurité, imposaient des restrictions. Pour obtenir des données (et ne pas tout afficher), il faut donc avoir une demande plus fine, plus spécifique. Pour ce faire, on utilise des filtres.</p>
 <p>Un filtre, ça consiste à ajouter à une action (donc à un verbe), une condition d'égalité. </p>
 <p>Concrètement, si on veut récupérer la liste des identifiants de nos instruments de recherche en série W (et PAS le reste), on fait :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_w</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_w</code></pre>
 <p>Dès qu'on ajoute un paramètre, on met une esperluette (le point d'interrogation étant réservé au premier paramètre). Puis on indique un élément XML et enfin la valeur désirée.</p>
 <p>L'idée donc, est de décomposer notre demande du général au particulier : je veux la liste des identifiants ET ("Mais") seulement ceux de tel service d'archives.</p>
 <p>Mais avant d'essayer avec France Archives, il faut continuer notre exploration des verbes et de la logique d'OAI-PMH.</p>
@@ -1453,18 +1453,18 @@ pre[class*="language-"] {
 <p><strong>Réponse</strong> :</p>
 <p>On fait affiche tous les identifiants avec ListIdentifiers, puis on filtre en sélectionnant l'ensemble de la série J.</p>
 <ul>
-<li><a href="http://localhost:8000/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_j">http://localhost:8000/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_j</a></li>
+<li><a href="http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_j">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListIdentifiers&amp;set=serie_j</a></li>
 </ul>
 <p>Note : si on a oublié quels sont nos ensembles, on peut faire :</p>
 <ul>
-<li><a href="http://localhost:8000/oai-pmh.php?verb=ListSets">http://localhost:8000/oai-pmh.php?verb=ListSets</a></li>
+<li><a href="http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListSets">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=ListSets</a></li>
 </ul>
 </blockquote>
 <p>Normalement on récupère une liste de <code>&lt;header&gt;</code>, voyez plutôt :</p>
 <pre><code class="fenced-code-block language-xml"><span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>OAI-PMH</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>http://www.openarchives.org/OAI/2.0/<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>responseDate</span><span class="token punctuation">&gt;</span></span>2025-07-20T09:38:48Z<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>responseDate</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListIdentifiers<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://localhost:8000/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>request</span> <span class="token attr-name">verb</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ListIdentifiers<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>http://desireesdata.fr/oai_ead/oai-pmh.php<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>request</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ListIdentifiers</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>header</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>identifier</span><span class="token punctuation">&gt;</span></span>FRAD039_142J<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>identifier</span><span class="token punctuation">&gt;</span></span>
@@ -1489,12 +1489,12 @@ pre[class*="language-"] {
 <p>Même si on a pas vu comment utiliser GetRecord, ça peut être intéressant d'imaginer comment faire sans regarder la réponse. Pensez aux filtres !</p>
 </blockquote>
 <p>Normalement, si vous avez essayé de "get" ce record, vous avez essayé ça :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J</code></pre>
 <p>Mais... ça ne marche pas ?</p>
 <p>La solution : <strong>metadataPrefix</strong>. En effet, on a obtenu quelque chose de similaire à <code>ListRecords</code> ! Et pas l'instrument de recherche XML/EAD lui-même ! En effet, on a demandé ici la représentation du XML/EAD et pas le XML lui-même. Pour obtenir le contenu, il faut préciser qu'on veut récupérer l'EAD natif avec <code>&amp;metadataPrefix=ead </code>. Il faut donc ajouter un autre paramètre :</p>
-<pre><code class="fenced-code-block">http://localhost:8000/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J&amp;metadataPrefix=ead</code></pre>
+<pre><code class="fenced-code-block">http://desireesdata.fr/oai_ead/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J&amp;metadataPrefix=ead</code></pre>
 <p>Si on utilise le terminal et curl, on peut télécharger directement nos fichiers de cette façon :</p>
-<pre><code class="fenced-code-block language-shell"><span class="token function">curl</span> <span class="token string">'http://localhost:8000/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J&amp;metadataPrefix=ead'</span> <span class="token operator">&gt;</span> mon_ir.xml</code></pre>
+<pre><code class="fenced-code-block language-shell"><span class="token function">curl</span> <span class="token string">'http://desireesdata.fr/oai_ead/oai-pmh.php?verb=GetRecord&amp;identifier=FRAD039_142J&amp;metadataPrefix=ead'</span> <span class="token operator">&gt;</span> mon_ir.xml</code></pre>
 <blockquote>
 <p>Note : ici, comme nous l'a renseigné ListDataFormat, on a "ead", mais on a souvent "ape_ead" pour les entrepôts comme France Archives.</p>
 </blockquote>
@@ -1545,6 +1545,8 @@ Njc4NTc2NDU0fmZpbmRpbmdhaWQ6c2VydmljZTpGUkFEMDI3fn5-YXBlX2VhZH42MX4x
 <p>Et ainsi de suite jusqu'à avoir collecté les 61 IR.</p>
 <h2 class="atx" id="un-code">Un code</h2>
 <p>Evidemment, moissonner demanderait de savoir coder. De fait, étant donné que c'est justement normalisé, on peut proposer un script de base pour effectuer le moissonnage (qui a l'ajuster soi-même où effectuant des modifs avec du "vibe-coding". Mais il m'a semblé intéressant de présenter ces aspects un peu techniques pour avoir un aperçu complet d'OAI-PMH !</p>
+
+<ul><li><a href="https://github.com/desireesdata/Mini-API-OAI-PMH/blob/main/moisson.py">moisson.py</a></li></ul>
 <h2 class="atx" id="conclusion">Conclusion</h2>
 <p>Ce tutoriel est un aperçu d'OAI-PMH. Le mieux est d'essayer les verbes et les filtres directement avec les entrepôts BnF, Calames, etc.</p>
 </article>
