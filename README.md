@@ -202,12 +202,14 @@ A : Assurez-vous que le fichier `data.csv` est encodé en UTF-8 sans BOM, avec `
 
 Ce projet est open-source, voir le fichier LICENSE pour plus d'information.
 
-Citation : POUYLLAU, S. (CNRS), FERAL; J. with Mistral 7b and Gemini, _CSV2OAI : Serveur OAI-PMH pour fichier CSV_, juillet 2025.
+Citation : POUYLLAU, S. (CNRS), FERAL, J. with Mistral 7b and Gemini, _CSV2OAI : Serveur OAI-PMH pour fichier CSV_, juillet 2025.
 
 ---
 
 ## Contact
 
 Créé par Stéphane Pouyllau, ingénieur de recherche CNRS. 
+
 Modifié par J. FERAL.
+
 Date : juillet 2025.
